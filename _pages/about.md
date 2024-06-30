@@ -62,6 +62,6 @@ I welcome all opportunities for discussion, learning, and collaboration. If you 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
-- *2023.07 - 2023.08*: Flourish Entertainment Agent Company, Web Developer Assistant, [**Web Development, Frontend, Backend**]
-- *2023.05 - 2023.08*: [**Legal Expression**](https://www.legalexpression.com), Full-Stack Developer (Entrepreneurship), [**Web Development, Frontend, Backend, LLM**]
+- *2023.07 - 2023.08*: Flourish Entertainment Agent Company, Hong Kong, Web Developer Assistant, [**Web Development, Frontend, Backend**]
+- *2023.05 - 2023.08*: [**Legal Expression**](https://www.legalexpression.com), Full-Stack Developer **(Entrepreneurship)**, [**Web Development, Frontend, Backend, LLM**]
 - *2022.05 - 2022.08*: Hongtai Water Resources Information Technology Co, Ltd, Ningbo, Front-End Engineer Trainee, [**Web Development, Frontend**]    
