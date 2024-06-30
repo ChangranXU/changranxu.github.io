@@ -9,8 +9,8 @@ main:
   # - title: "Publications"
   #   url: "/#-publications"
 
-  - title: "Research and Interns"
-    url: "/#-research-and-interns"
+  - title: "Research"
+    url: "/#-research"
 
   - title: "Educations"
     url: "/#-educations"
