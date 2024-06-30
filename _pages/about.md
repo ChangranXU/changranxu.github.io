@@ -19,7 +19,7 @@ redirect_from:
 
 Greetings!
 
-I will be graduating from Bachelor of Science at The Chinese University of Hong Kong with a First Class Honours. I am now engaged in various exciting projects related to AIGC, Computer Vision, LLM and Machine Learning. I am passionate about these fields and always eager to learn more and share my knowledge.
+I will be graduating from Bachelor of Science at The Chinese University of Hong Kong with a First Class Honours. I am now engaged in various exciting projects related to **AIGC, Medical Imaging Analysis, LLM, GNN and Machine Learning**. I am passionate about these fields and always eager to learn more and share my knowledge.
 
 I welcome all opportunities for discussion, learning, and collaboration. If you have any opportunities related to work, study, or collaboration in these areas, please feel free to reach out to me.
 
