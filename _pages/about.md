@@ -25,10 +25,10 @@ I welcome all opportunities for discussion, learning, and collaboration. If you 
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.05*: &nbsp;🎉🎉 I'll engage in Large Circuit Model project in <strong>National Center of Technology Innovation for EDA</strong> supervised by Professor XU Qiang.
+- *2024.03*: &nbsp;🎉🎉 I’ll join <a href='https://ccvl.jhu.edu'> <strong>CCVL at Johns Hopkins University</strong></a> research group to do research this summer with Professor Alan Yuille, Dr. Zhou Zongwei.
 
-# 📝 Publications 
+<!-- # 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -42,7 +42,7 @@ I welcome all opportunities for discussion, learning, and collaboration. If you 
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
