@@ -26,7 +26,7 @@ I welcome all opportunities for discussion, learning, and collaboration. If you 
 
 # 🔥 News
 - *2024.05*: &nbsp;🎉🎉 I am engaged in Large Circuit Model project in <strong>National Center of Technology Innovation for EDA</strong> supervised by Professor XU Qiang.
-- *2024.03*: &nbsp;🎉🎉 I joined the <a href='https://ccvl.jhu.edu'> <strong>CCVL at Johns Hopkins University</strong></a> research group to do research this summer with Professor Alan Yuille, Dr. Zhou Zongwei.
+- *2024.03*: &nbsp;🎉🎉 I joined the <a href='https://ccvl.jhu.edu'> <strong>CCVL at Johns Hopkins University</strong></a> research group to do research this summer with [**Professor Alan Yuille**](https://scholar.google.com/citations?user=FJ-huxgAAAAJ&hl=zh-CN) and [**Dr. Zhou Zongwei**](https://scholar.google.com/citations?user=JVOeczAAAAAJ&hl=en).
 
 <!-- # 📝 Publications 
 
@@ -45,7 +45,7 @@ I welcome all opportunities for discussion, learning, and collaboration. If you 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 # 🎖 Research and Interns
-- *2023.12 - Present*: Application of Computer Vision in Biomedical Engineering | **Research Assistant** | [**Dr. Wei yuanyuan**](https://scholar.google.com/citations?user=K3Xmwr8AAAAJ&hl=zh-CN)
+- *2023.12 - Present*: Application of Computer Vision in Biomedical Engineering, **Research Assistant**, supervised by [**Dr. Wei yuanyuan**](https://scholar.google.com/citations?user=K3Xmwr8AAAAJ&hl=zh-CN)
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 📖 Educations
