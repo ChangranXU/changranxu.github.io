@@ -43,7 +43,7 @@ I welcome all opportunities for discussion, learning, and collaboration. If you 
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- <div class="badge">Arxiv Preprint</div>[SAM-dPCR: Real-Time and High-throughput Absolute Quantification of Biological Samples Using Zero-Shot Segment Anything Model](https://arxiv.org/pdf/2403.18826v1.pdf). *·Yuanyuan Wei, Shanhang Luo, **Changran Xu**, Yingqi Fu, Qingyue Dong, Yi Zhang, Fuyang Qu, Guangyao Cheng, Yi-Ping Ho, Ho-Pui Ho, Wu Yuan·*
 
 # 🎖 Research
 - *2024.05 - Present*: Large Circuit Model, **Research Assistant**, supervised by [**Professor XU Qiang**](https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl=zh-CN) [**EDA, Machine Learning, LLM, GNN**]
