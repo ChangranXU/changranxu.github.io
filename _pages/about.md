@@ -25,7 +25,7 @@ I welcome all opportunities for discussion, learning, and collaboration. If you 
 
 
 # 🔥 News
-- *2024.05*: &nbsp;🎉🎉 I am engaged in Large Circuit Model project in <strong>National Center of Technology Innovation for EDA</strong> supervised by [**Professor XU Qiang**](https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl=zh-CN).
+- *2024.05*: &nbsp;🎉🎉 I am engaged in <strong>Large Circuit Model</strong> project in <strong>National Center of Technology Innovation for EDA</strong> supervised by [**Professor XU Qiang**](https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl=zh-CN).
 - *2024.03*: &nbsp;🎉🎉 I joined the <a href='https://ccvl.jhu.edu'> <strong>CCVL at Johns Hopkins University</strong></a> research group to do research this summer with [**Professor Alan Yuille**](https://scholar.google.com/citations?user=FJ-huxgAAAAJ&hl=zh-CN) and [**Dr. Zhou Zongwei**](https://scholar.google.com/citations?user=JVOeczAAAAAJ&hl=en).
 
 <!-- # 📝 Publications 
