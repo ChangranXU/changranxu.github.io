@@ -54,7 +54,7 @@ I welcome all opportunities for discussion, learning, and collaboration. If you 
 # 📖 Educations
 - *2020.09 - 2024.08 (now)*, <strong>The Chinese University of Hong Kong</strong>, Bachelor of Science in Computer Science, First Class Honours.
 - *2024.06 - 2024.08*, <strong>Johns Hopkins University</strong>, Visiting Student
-- *2021.06 - 2021.07 and 2022.06 - 2022.07*, <strong>Peiking University</strong>, Summer School
+- *2021.06 - 2021.07 and 2022.06 - 2022.07*, <strong>Peking University</strong>, Summer School
 - *2017.09 - 2020.08*, <strong>Ningbo Yinzhou Middle School (宁波市鄞州中学)</strong>, Elite Stream Class, High School Diploma. 
 
 <!-- # 💬 Invited Talks
