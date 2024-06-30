@@ -22,7 +22,7 @@ redirect_from:
 
 I will be graduating with a Bachelor of Science from **The Chinese University of Hong Kong** with *First Class Honours*. I am currently a visiting student at **Johns Hopkins University**. I am now engaged in various exciting projects related to AIGC, Medical Imaging Analysis, LLM, GNN, and Machine Learning.
 
-💼 I welcome all opportunities for discussion, learning, and collaboration. If you have any opportunities related to work, study, or collaboration in these areas, please feel free to reach out to me. Additionally, if you have any **Master’s or PhD** opportunities, please please please contact me 🙏.
+I welcome all opportunities for discussion, learning, and collaboration. If you have any opportunities related to work, study, or collaboration in these areas, please feel free to reach out to me. Additionally, if you have any **Master’s or PhD** opportunities, please please please contact me 🙏.
 
 # 🔥 News
 - *2024.05*: &nbsp;🎉🎉 I am engaged in <strong>Large Circuit Model</strong> project in <strong>National Center of Technology Innovation for EDA</strong> supervised by [**Professor XU Qiang**](https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl=zh-CN).
