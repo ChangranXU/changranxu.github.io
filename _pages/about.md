@@ -52,7 +52,9 @@ I welcome all opportunities for discussion, learning, and collaboration. If you 
 - *2023.06 - 2023.08*: SmartNIC Performance Profiling and Prediction, **Research Assistant**, supervised by [**Professor XU Hong**](https://scholar.google.com/citations?user=BZHzIFIAAAAJ&hl=en) [**SmartNIC, Network Performance**]       
 
 # 📖 Educations
+- *2024.06 - 2024.08*, <strong>Johns Hopkins University</strong>, Visiting Student
 - *2020.09 - 2024.08 (now)*, <strong>The Chinese University of Hong Kong</strong>, Bachelor of Science in Computer Science, First Class Honours.
+- *2021.06 - 2021.07* and *2022.06 - 2022.07**, <strong>Peiking University</strong>, Summer School
 - *2017.09 - 2020.08*, <strong>Ningbo Yinzhou Middle School (宁波市鄞州中学)</strong>, Elite Stream Class, High School Diploma. 
 
 <!-- # 💬 Invited Talks
