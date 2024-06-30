@@ -31,7 +31,7 @@ I welcome all opportunities for discussion, learning, and collaboration. If you 
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
@@ -41,7 +41,7 @@ I welcome all opportunities for discussion, learning, and collaboration. If you 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 </div>
-</div>
+</div> -->
 
 - <div><div class="badge">Arxiv Preprint</div>[SAM-dPCR: Real-Time and High-throughput Absolute Quantification of Biological Samples Using Zero-Shot Segment Anything Model](https://arxiv.org/pdf/2403.18826v1.pdf). *·Yuanyuan Wei, Shanhang Luo, **Changran Xu**, Yingqi Fu, Qingyue Dong, Yi Zhang, Fuyang Qu, Guangyao Cheng, Yi-Ping Ho, Ho-Pui Ho, Wu Yuan·*</div>
 - <div class="badge">Arxiv Preprint</div>[Evaluating Text-to-Image Generative Models: An Empirical Study on Human Image Synthesis](https://arxiv.org/pdf/2403.05125v1.pdf). * ·Muxi Chen, Yi Liu, Jian Yi, **Changran Xu**, Qiuxia Lai, Hongliang Wang, Tsung-Yi Ho, Qiang Xu·*
