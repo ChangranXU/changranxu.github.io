@@ -15,9 +15,10 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<span class='anchor' id='about-me'></span>
 
-Greetings!
+# 👋 Welcome!
+
+<span class='anchor' id='about-me'></span>
 
 I will be graduating from Bachelor of Science at The Chinese University of Hong Kong with a First Class Honours. I am now engaged in various exciting projects related to **AIGC, Medical Imaging Analysis, LLM, GNN and Machine Learning**. I am passionate about these fields and always eager to learn more and share my knowledge.
 
@@ -26,7 +27,7 @@ I welcome all opportunities for discussion, learning, and collaboration. If you 
 
 # 🔥 News
 - *2024.05*: &nbsp;🎉🎉 I am engaged in <strong>Large Circuit Model</strong> project in <strong>National Center of Technology Innovation for EDA</strong> supervised by [**Professor XU Qiang**](https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl=zh-CN).
-- *2024.03*: &nbsp;🎉🎉 I joined the <a href='https://ccvl.jhu.edu'> <strong>CCVL at Johns Hopkins University</strong></a> research group to do research this summer with [**Professor Alan Yuille**](https://scholar.google.com/citations?user=FJ-huxgAAAAJ&hl=zh-CN) and [**Dr. Zhou Zongwei**](https://scholar.google.com/citations?user=JVOeczAAAAAJ&hl=en).
+- *2024.03*: &nbsp;🎉🎉 I joined the <a href='https://ccvl.jhu.edu'> <strong>CCVL at Johns Hopkins University</strong></a> research group to do research with [**Professor Alan Yuille**](https://scholar.google.com/citations?user=FJ-huxgAAAAJ&hl=zh-CN) and [**Dr. Zhou Zongwei**](https://scholar.google.com/citations?user=JVOeczAAAAAJ&hl=en).
 
 <!-- # 📝 Publications 
 
