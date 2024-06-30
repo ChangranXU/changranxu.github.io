@@ -25,8 +25,8 @@ I welcome all opportunities for discussion, learning, and collaboration. If you 
 
 
 # 🔥 News
-- *2024.05*: &nbsp;🎉🎉 I'll engage in Large Circuit Model project in <strong>National Center of Technology Innovation for EDA</strong> supervised by Professor XU Qiang.
-- *2024.03*: &nbsp;🎉🎉 I’ll join <a href='https://ccvl.jhu.edu'> <strong>CCVL at Johns Hopkins University</strong></a> research group to do research this summer with Professor Alan Yuille, Dr. Zhou Zongwei.
+- *2024.05*: &nbsp;🎉🎉 I am engaged in Large Circuit Model project in <strong>National Center of Technology Innovation for EDA</strong> supervised by Professor XU Qiang.
+- *2024.03*: &nbsp;🎉🎉 I joined the <a href='https://ccvl.jhu.edu'> <strong>CCVL at Johns Hopkins University</strong></a> research group to do research this summer with Professor Alan Yuille, Dr. Zhou Zongwei.
 
 <!-- # 📝 Publications 
 
@@ -44,17 +44,17 @@ I welcome all opportunities for discussion, learning, and collaboration. If you 
 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+# 🎖 Research and Interns
+- *2023.12 - Present* ABI Lab at The Chinese University of Hong Kong, supervised by Dr. Wei Yuanyuan. <strong>[Computer Vision, BME]</strong>
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 📖 Educations
 - *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 💬 Invited Talks
+<!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
 - *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
