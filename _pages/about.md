@@ -25,7 +25,7 @@ I welcome all opportunities for discussion, learning, and collaboration. If you 
 
 
 # 🔥 News
-- *2024.05*: &nbsp;🎉🎉 I am engaged in Large Circuit Model project in <strong>National Center of Technology Innovation for EDA</strong> supervised by Professor XU Qiang.
+- *2024.05*: &nbsp;🎉🎉 I am engaged in Large Circuit Model project in <strong>National Center of Technology Innovation for EDA</strong> supervised by [**Professor XU Qiang**](https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl=zh-CN).
 - *2024.03*: &nbsp;🎉🎉 I joined the <a href='https://ccvl.jhu.edu'> <strong>CCVL at Johns Hopkins University</strong></a> research group to do research this summer with [**Professor Alan Yuille**](https://scholar.google.com/citations?user=FJ-huxgAAAAJ&hl=zh-CN) and [**Dr. Zhou Zongwei**](https://scholar.google.com/citations?user=JVOeczAAAAAJ&hl=en).
 
 <!-- # 📝 Publications 
@@ -44,17 +44,22 @@ I welcome all opportunities for discussion, learning, and collaboration. If you 
 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
-# 🎖 Research and Interns
-- *2023.12 - Present*: Application of Computer Vision in Biomedical Engineering, **Research Assistant**, supervised by [**Dr. Wei yuanyuan**](https://scholar.google.com/citations?user=K3Xmwr8AAAAJ&hl=zh-CN)
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+# 🎖 Research
+- *2024.05 - Present*: Large Circuit Model, **Research Assistant**, supervised by [**Professor XU Qiang**](https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl=zh-CN) [EDA, Machine Learning, LLM, GNN]
+- *2024.03 - Present*: Medical Image Analysis, **Research Intern**, supervised by [**Professor Alan Yuille**](https://scholar.google.com/citations?user=FJ-huxgAAAAJ&hl=zh-CN) and [**Dr. Zhou Zongwei**](https://scholar.google.com/citations?user=JVOeczAAAAAJ&hl=en) [Computer Vision, Machine Learning, Medical Image Analysis]
+- *2023.12 - Present*: Application of Computer Vision in Biomedical Engineering, **Research Assistant**, supervised by [**Dr. Wei yuanyuan**](https://scholar.google.com/citations?user=K3Xmwr8AAAAJ&hl=zh-CN) [Computer Vision, Machine Learning, BME]
+- *2023.09 - 2024.05*: Bootstrapping AI-Generated Content and Medical Image Analysis, **Research Assistant**, supervised by [**Professor XU Qiang**](https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl=zh-CN) [AIGC, Machine Learning, Medical Image Analysis]
+- *2023.06 - 2023.08*: SmartNIC Performance Profiling and Prediction, **Research Assistant**, supervised by [**Professor XU Hong**](https://scholar.google.com/citations?user=BZHzIFIAAAAJ&hl=en) [SmartNIC, Network Performance]       
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2020.09 - 2024.08 (now)*, <strong>The Chinese University of Hong Kong</strong>, Bachelor of Science in Computer Science, First Class Honours.
+- *2017.09 - 2020.08*, <strong>Yinzhou Middle School (宁波市鄞州中学)</strong>, Elite Stream Class, High School Diploma. 
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2023.07 - 2023.08*: Flourish Entertainment Agent Company, Web Developer Assistant, [**Intern**] [Web Development, Frontend, Backend]
+- *2023.05 - 2023.08*: [**Legal Expression**](https://www.legalexpression.com), Full-Stack Developer (Entrepreneurship), [**Intern**] [Web Development, Frontend, Backend, LLM]
+- *2022.05 - 2022.08*: Hongtai Water Resources Information Technology Co, Ltd, Ningbo, Front-End Engineer Trainee, [**Intern**] [Web Development, Frontend]    
