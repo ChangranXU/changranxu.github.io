@@ -53,7 +53,7 @@ I welcome all opportunities for discussion, learning, and collaboration. If you 
 
 # 📖 Educations
 - *2020.09 - 2024.08 (now)*, <strong>The Chinese University of Hong Kong</strong>, Bachelor of Science in Computer Science, First Class Honours.
-- *2017.09 - 2020.08*, <strong>Yinzhou Middle School (宁波市鄞州中学)</strong>, Elite Stream Class, High School Diploma. 
+- *2017.09 - 2020.08*, <strong>Ningbo Yinzhou Middle School (宁波市鄞州中学)</strong>, Elite Stream Class, High School Diploma. 
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
