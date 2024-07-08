@@ -54,9 +54,9 @@ redirect_from:
 
   - **Bridging Dimensions: High-Precision 3D Cell Shape Prediction from Microfluidic-Induced Deformations**, *Yuanyuan Wei* †, **Changran Xu** †, *Qinru Xiao* †, *Yingqi Fu*, *Qingyue Dong*, *Mingkun Xu*, *Guoxun Zhang*, *Ho-Pui Ho*, *Yi-Ping Ho*, *Wu Yuan*
 
-###### († denotes equal contribution)
+† denotes equal contribution
 
-#### **🚀🚀🚀 More papers related to medical image analysis/GNN/LLM/EDA are coming soon...**
+**🚀🚀🚀 More papers related to medical image analysis/GNN/LLM/EDA are coming soon...**
 
 # 🎖 Research
 - *2024.05 - Present*: Large Circuit Model, **Research Assistant**, supervised by [**Professor XU Qiang**](https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl=zh-CN) [**EDA, Machine Learning, LLM, GNN**]
