@@ -42,8 +42,9 @@ redirect_from:
 </div>
 </div> -->
 
-- [SAM-dPCR: Real-Time and High-throughput Absolute Quantification of Biological Samples Using Zero-Shot Segment Anything Model](https://arxiv.org/pdf/2403.18826v1.pdf), *Yuanyuan Wei*, *Shanhang Luo*, **Changran Xu**, *Yingqi Fu*, *Qingyue Dong*, *Yi Zhang*, *Fuyang Qu*, *Guangyao Cheng*, *Yi-Ping Ho*, *Ho-Pui Ho*, *Wu Yuan*, **Arxiv Preprint** \| [**Code**](https://github.com/WEI-yuanyuan/SAM-dPCR)
+- [SAM-dPCR: Real-Time and High-throughput Absolute Quantification of Biological Samples Using Zero-Shot Segment Anything Model](https://arxiv.org/pdf/2403.18826v1.pdf), *Yuanyuan Wei*, *Shanhang Luo*, **Changran Xu**, *Yingqi Fu*, *Qingyue Dong*, *Yi Zhang*, *Fuyang Qu*, *Guangyao Cheng*, *Yi-Ping Ho*, *Ho-Pui Ho*, *Wu Yuan*, **Arxiv Preprint, Advanced Science [Under review].** \| [**Code**](https://github.com/WEI-yuanyuan/SAM-dPCR)
 - [Evaluating Text-to-Image Generative Models: An Empirical Study on Human Image Synthesis](https://arxiv.org/pdf/2403.05125v1.pdf), *Muxi Chen*, *Yi Liu*, *Jian Yi*, **Changran Xu**, *Qiuxia Lai*, *Hongliang Wang*, *Tsung-Yi Ho*, *Qiang Xu*, **Arxiv Preprint**
+- Artificial Intelligence Enhanced Digital Nucleic Acid Amplification Testing for Precision Medicine and Molecular Diagnostics *Yuanyuan Wei*, *Xianxian Liu*, **Changran Xu**, *Guoxun Zhang*, *Wu Yuan*, *Ho-Pui Ho*, *Mingkun Xu*, **Nature Methods [Submitted]**
 - **Two papers are waiting to submit and two papers are under review...**
 
 # 🎖 Research
