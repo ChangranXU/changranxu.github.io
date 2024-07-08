@@ -46,8 +46,15 @@ redirect_from:
   
 # (
 - **Artificial Intelligence Enhanced Digital Nucleic Acid Amplification Testing for Precision Medicine and Molecular Diagnostics**, *Yuanyuan Wei*, *Xianxian Liu*, **Changran Xu**, *Guoxun Zhang*, *Wu Yuan*, *Ho-Pui Ho*, *Mingkun Xu*, **Nature Methods [Submitted]**
+)
+
+# (
 - **Enhanced dPCR Research Toolbox: An Open-Source dPCR Data Repository and DualStream dPCR Analyzer for Advanced Computational Applications**, *Yuanyuan Wei*, *Zhichao Wang*, **Changran Xu**, *Fuyang Qu*, *Shanhang Luo*, *Bijie Bai*, *Yi Zhang*, *Yi-Ping Ho*, *Wu Yuan*, *Ho-Pui Ho*, **Under preparation** \| [**Code**](https://github.com/WEI-yuanyuan/dPCR-dataset)
-- **Bridging Dimensions: High-Precision 3D Cell Shape Prediction from Microfluidic-Induced Deformations**, *Yuanyuan Wei †*, **Changran Xu †**, *Qinru Xiao †*, *Yingqi Fu*, *Qingyue Dong*, *Mingkun Xu*, *Guoxun Zhang*, *Ho-Pui Ho*, *Yi-Ping Ho*, *Wu Yuan*, **Under preparation** )
+)
+
+# (
+- **Bridging Dimensions: High-Precision 3D Cell Shape Prediction from Microfluidic-Induced Deformations**, *Yuanyuan Wei †*, **Changran Xu †**, *Qinru Xiao †*, *Yingqi Fu*, *Qingyue Dong*, *Mingkun Xu*, *Guoxun Zhang*, *Ho-Pui Ho*, *Yi-Ping Ho*, *Wu Yuan*, **Under preparation** 
+)
 
 - **🚀🚀🚀 More papers coming soon...**
 
