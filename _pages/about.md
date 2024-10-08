@@ -20,9 +20,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-🎓 I will be graduating with a Bachelor of Science from **The Chinese University of Hong Kong** with *First Class Honours*. I am currently a visiting student at **Johns Hopkins University**. I am now engaged in various exciting projects related to **AIGC, Medical Imaging Analysis, LLM, GNN, and Machine Learning**.
+🎓 I graduated with a Bachelor of Science from **The Chinese University of Hong Kong** with *First Class Honours*. I am now engaged in various exciting projects related to **LLM, GNN, and Machine Learning**.
 
-💼 I welcome all opportunities for discussion, learning, and collaboration. If you have any opportunities related to work, study, or collaboration in these areas, please feel free to reach out to me. Additionally, if you have any **Master’s or PhD** opportunities, please please please contact me 🙏.
+💼 I welcome all opportunities for discussion, learning, and collaboration. If you have any opportunities related to work, study, or collaboration in these areas, please feel free to reach out to me.
 
 # 🔥 News
 - *2024.05*: &nbsp;🎉🎉 I am engaged in <strong>Large Circuit Model</strong> project in <strong>National Center of Technology Innovation for EDA</strong> supervised by [**Professor XU Qiang**](https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl=zh-CN).
@@ -58,8 +58,6 @@ redirect_from:
   - **Bridging Dimensions: High-Precision 3D Cell Shape Prediction from Microfluidic-Induced Deformations**, *Yuanyuan Wei* †, **Changran Xu** †, *Qinru Xiao* †, *Yingqi Fu*, *Qingyue Dong*, *Mingkun Xu*, *Guoxun Zhang*, *Ho-Pui Ho*, *Yi-Ping Ho*, *Wu Yuan*
 
 † denotes equal contribution
-
-**🚀🚀🚀 More papers related to medical image analysis/GNN/LLM/EDA are coming soon...**
 
 # 🎖 Research
 - *2024.05 - Present*: Large Circuit Model, **Research Assistant**, supervised by [**Professor XU Qiang**](https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl=zh-CN) [**EDA, Machine Learning, LLM, GNN**]
