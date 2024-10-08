@@ -20,7 +20,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-🎓 I graduated with a Bachelor of Science from **The Chinese University of Hong Kong** with *First Class Honours*. I am now engaged in various exciting projects related to **LLM, GNN, and Machine Learning**.
+🎓 I graduated with a Bachelor of Science from **The Chinese University of Hong Kong** with *First Class Honours* in August 2025. And now, I am engaged in various exciting projects related to **LLM, GNN, and Machine Learning**.
 
 💼 I welcome all opportunities for discussion, learning, and collaboration. If you have any opportunities related to work, study, or collaboration in these areas, please feel free to reach out to me.
 
@@ -60,7 +60,7 @@ redirect_from:
 † denotes equal contribution
 
 # 🎖 Research
-- *2024.05 - Present*: Large Circuit Model, **Research Assistant**, supervised by [**Professor XU Qiang**](https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl=zh-CN) [**EDA, Machine Learning, LLM, GNN**]
+- *2024.05 - Present*: Large Circuit Model, **Research Assistant/Algorithm Engineer**, supervised by [**Professor XU Qiang**](https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl=zh-CN) [**EDA, Machine Learning, LLM, GNN**]
 - *2024.03 - 2024.08*: Medical Imaging Analysis, **Research Intern**, supervised by [**Professor Alan Yuille**](https://scholar.google.com/citations?user=FJ-huxgAAAAJ&hl=zh-CN) and [**Dr. Zhou Zongwei**](https://scholar.google.com/citations?user=JVOeczAAAAAJ&hl=en) [**Computer Vision, Machine Learning, Medical Imaging Analysis, Mixture of Experts**]
 - *2023.12 - Present*: Application of Computer Vision in Biomedical Engineering, **Research Assistant**, supervised by [**Dr. Wei yuanyuan**](https://scholar.google.com/citations?user=K3Xmwr8AAAAJ&hl=zh-CN) [**Computer Vision, Machine Learning, BME**]
 - *2023.09 - 2024.05*: Bootstrapping AI-Generated Content and Medical Imaging Analysis, **Research Assistant**, supervised by [**Professor XU Qiang**](https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl=zh-CN) [**AIGC, Machine Learning, Medical Imaging Analysis**]
