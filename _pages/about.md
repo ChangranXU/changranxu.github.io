@@ -48,7 +48,7 @@ redirect_from:
 ### BME
   - **[SAM-dPCR: Real-Time and High-throughput Absolute Quantification of Biological Samples Using Zero-Shot Segment Anything Model](https://arxiv.org/pdf/2403.18826v1.pdf)**, *Yuanyuan Wei*, *Shanhang Luo*, **Changran Xu**, *Yingqi Fu*, *Qingyue Dong*, *Yi Zhang*, *Fuyang Qu*, *Guangyao Cheng*, *Yi-Ping Ho*, *Ho-Pui Ho*, *Wu Yuan*, **Arxiv Preprint** \| [**Code**](https://github.com/WEI-yuanyuan/SAM-dPCR)
 
-  - **[Advancing digital PCR data management: an open-source benchmark database](https://spie.org/photonics-west/presentation/Accurate-nucleic-acids-quantification-in-dPCR-using-zero-shot-Segment/13333-53)**, *Yuanyuan Wei*, **Changran Xu**, *Shanheng Luo*, *Yingqi Fu*, *Qingyue Dong*, *Wen Lyu*, *Bijie Bai*, *Yi-Ping Ho*, *Ho-Pui Ho*, *Wu Yuan*, <span style="color: lightblue;">**SPIE Photonics West**</span>
+  - **[Advancing digital PCR data management: an open-source benchmark database](https://spie.org/photonics-west/presentation/Accurate-nucleic-acids-quantification-in-dPCR-using-zero-shot-Segment/13333-53)**, *Yuanyuan Wei*, **Changran Xu**, *Shanheng Luo*, *Yingqi Fu*, *Qingyue Dong*, *Wen Lyu*, *Bijie Bai*, *Yi-Ping Ho*, *Ho-Pui Ho*, *Wu Yuan*, <span style="color: darkblue;">**SPIE Photonics West**</span>
   
   
   - **[Artificial Intelligence Enhanced Digital Nucleic Acid Amplification Testing for Precision Medicine and Molecular Diagnostics](https://arxiv.org/pdf/2407.21080)**, *Yuanyuan Wei*, *Xianxian Liu*, **Changran Xu**, *Guoxun Zhang*, *Wu Yuan*, *Ho-Pui Ho*, *Mingkun Xu*, **Arxiv Preprint**
@@ -63,14 +63,14 @@ redirect_from:
 
 # 🎖 Research
 - *2024.05 - Present*: Large Circuit Model, **Research Assistant**, supervised by [**Professor XU Qiang**](https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl=zh-CN) [**EDA, Machine Learning, LLM, GNN**]
-- *2024.03 - Present*: Medical Imaging Analysis, **Research Intern**, supervised by [**Professor Alan Yuille**](https://scholar.google.com/citations?user=FJ-huxgAAAAJ&hl=zh-CN) and [**Dr. Zhou Zongwei**](https://scholar.google.com/citations?user=JVOeczAAAAAJ&hl=en) [**Computer Vision, Machine Learning, Medical Imaging Analysis, Mixture of Experts**]
+- *2024.03 - 2024.08*: Medical Imaging Analysis, **Research Intern**, supervised by [**Professor Alan Yuille**](https://scholar.google.com/citations?user=FJ-huxgAAAAJ&hl=zh-CN) and [**Dr. Zhou Zongwei**](https://scholar.google.com/citations?user=JVOeczAAAAAJ&hl=en) [**Computer Vision, Machine Learning, Medical Imaging Analysis, Mixture of Experts**]
 - *2023.12 - Present*: Application of Computer Vision in Biomedical Engineering, **Research Assistant**, supervised by [**Dr. Wei yuanyuan**](https://scholar.google.com/citations?user=K3Xmwr8AAAAJ&hl=zh-CN) [**Computer Vision, Machine Learning, BME**]
 - *2023.09 - 2024.05*: Bootstrapping AI-Generated Content and Medical Imaging Analysis, **Research Assistant**, supervised by [**Professor XU Qiang**](https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl=zh-CN) [**AIGC, Machine Learning, Medical Imaging Analysis**]
 - *2023.06 - 2023.08*: SmartNIC Performance Profiling and Prediction, **Research Assistant**, supervised by [**Professor XU Hong**](https://scholar.google.com/citations?user=BZHzIFIAAAAJ&hl=en) [**SmartNIC, Network Performance**]       
 
 # 📖 Educations
-- *2020.09 - 2024.08 (now)*, <strong>The Chinese University of Hong Kong</strong>, Bachelor of Science in Computer Science, First Class Honours.
-- *2024.06 - 2024.08 (now)*, <strong>Johns Hopkins University</strong>, Visiting Student
+- *2020.09 - 2024.08*, <strong>The Chinese University of Hong Kong</strong>, Bachelor of Science in Computer Science, First Class Honours.
+- *2024.06 - 2024.08*, <strong>Johns Hopkins University</strong>, Visiting Student
 - *2021.06 - 2021.07 and 2022.06 - 2022.07*, <strong>Peking University</strong>, Summer School
 - *2017.09 - 2020.08*, <strong>Ningbo Yinzhou Middle School (宁波市鄞州中学)</strong>, Elite Stream Class, High School Diploma. 
 
