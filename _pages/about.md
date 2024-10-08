@@ -48,7 +48,7 @@ redirect_from:
 ### BME
   - **[SAM-dPCR: Real-Time and High-throughput Absolute Quantification of Biological Samples Using Zero-Shot Segment Anything Model](https://arxiv.org/pdf/2403.18826v1.pdf)**, *Yuanyuan Wei*, *Shanhang Luo*, **Changran Xu**, *Yingqi Fu*, *Qingyue Dong*, *Yi Zhang*, *Fuyang Qu*, *Guangyao Cheng*, *Yi-Ping Ho*, *Ho-Pui Ho*, *Wu Yuan*, **Arxiv Preprint** \| [**Code**](https://github.com/WEI-yuanyuan/SAM-dPCR)
 
-  - **[Advancing digital PCR data management: an open-source benchmark database](https://spie.org/photonics-west/presentation/Accurate-nucleic-acids-quantification-in-dPCR-using-zero-shot-Segment/13333-53)**, *Yuanyuan Wei*, **Changran Xu**, *Shanheng Luo*, *Yingqi Fu*, *Qingyue Dong*, *Wen Lyu*, *Bijie Bai*, *Yi-Ping Ho*, *Ho-Pui Ho*, *Wu Yuan*, **SPIE Photonics West**
+  - **[Advancing digital PCR data management: an open-source benchmark database](https://spie.org/photonics-west/presentation/Accurate-nucleic-acids-quantification-in-dPCR-using-zero-shot-Segment/13333-53)**, *Yuanyuan Wei*, **Changran Xu**, *Shanheng Luo*, *Yingqi Fu*, *Qingyue Dong*, *Wen Lyu*, *Bijie Bai*, *Yi-Ping Ho*, *Ho-Pui Ho*, *Wu Yuan*, <span style="color: lightblue;">**SPIE Photonics West**</span>
   
   
   - **[Artificial Intelligence Enhanced Digital Nucleic Acid Amplification Testing for Precision Medicine and Molecular Diagnostics](https://arxiv.org/pdf/2407.21080)**, *Yuanyuan Wei*, *Xianxian Liu*, **Changran Xu**, *Guoxun Zhang*, *Wu Yuan*, *Ho-Pui Ho*, *Mingkun Xu*, **Arxiv Preprint**
