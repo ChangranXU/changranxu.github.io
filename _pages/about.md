@@ -25,7 +25,7 @@ redirect_from:
 💼 I welcome all opportunities for discussion, learning, and collaboration. If you have any opportunities related to work, study, or collaboration in these areas, please feel free to reach out to me.
 
 # 🔥 News
-- *2024.10*: &nbsp;🎉🎉 One abstract paper received by <span style="color: darkblue;">**SPIE Photonics West**</span>.
+- *2024.10*: &nbsp;🎉🎉 One abstract paper has been accepted by **[2025 SPIE Photonics West](https://spie.org/conferences-and-exhibitions/photonics-west#_=_)**.
 - *2024.05*: &nbsp;🎉🎉 I am engaged in <strong>Large Circuit Model</strong> project in <strong>National Center of Technology Innovation for EDA</strong> supervised by [**Professor XU Qiang**](https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl=zh-CN).
 
 # 📝 Publications 
@@ -48,7 +48,7 @@ redirect_from:
 ### BME
   - **[SAM-dPCR: Real-Time and High-throughput Absolute Quantification of Biological Samples Using Zero-Shot Segment Anything Model](https://arxiv.org/pdf/2403.18826v1.pdf)**, *Yuanyuan Wei*, *Shanhang Luo*, **Changran Xu**, *Yingqi Fu*, *Qingyue Dong*, *Yi Zhang*, *Fuyang Qu*, *Guangyao Cheng*, *Yi-Ping Ho*, *Ho-Pui Ho*, *Wu Yuan*, **Arxiv Preprint** \| [**Code**](https://github.com/WEI-yuanyuan/SAM-dPCR)
 
-  - **[Accurate nucleic acids quantification in dPCR using zero-shot Segment Anything Model](https://spie.org/photonics-west/presentation/Accurate-nucleic-acids-quantification-in-dPCR-using-zero-shot-Segment/13333-53)**, *Yuanyuan Wei*, **Changran Xu**, *Shanheng Luo*, *Yingqi Fu*, *Qingyue Dong*, *Wen Lyu*, *Bijie Bai*, *Yi-Ping Ho*, *Ho-Pui Ho*, *Wu Yuan*, <span style="color: darkblue;">**SPIE Photonics West**</span>
+  - **[Accurate nucleic acids quantification in dPCR using zero-shot Segment Anything Model](https://spie.org/photonics-west/presentation/Accurate-nucleic-acids-quantification-in-dPCR-using-zero-shot-Segment/13333-53)**, *Yuanyuan Wei*, **Changran Xu**, *Shanheng Luo*, *Yingqi Fu*, *Qingyue Dong*, *Wen Lyu*, *Bijie Bai*, *Yi-Ping Ho*, *Ho-Pui Ho*, *Wu Yuan*, <span style="color: darkblue;">**2025 SPIE Photonics West**</span>
   
   
   - **[Artificial Intelligence Enhanced Digital Nucleic Acid Amplification Testing for Precision Medicine and Molecular Diagnostics](https://arxiv.org/pdf/2407.21080)**, *Yuanyuan Wei*, *Xianxian Liu*, **Changran Xu**, *Guoxun Zhang*, *Wu Yuan*, *Ho-Pui Ho*, *Mingkun Xu*, **Arxiv Preprint**
