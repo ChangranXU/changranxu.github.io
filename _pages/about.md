@@ -25,8 +25,8 @@ redirect_from:
 💼 I welcome all opportunities for discussion, learning, and collaboration. If you have any opportunities related to work, study, or collaboration in these areas, please feel free to reach out to me.
 
 # 🔥 News
+- *2024.10*: &nbsp;🎉🎉 One abstract paper received by <span style="color: darkblue;">**SPIE Photonics West**</span>.
 - *2024.05*: &nbsp;🎉🎉 I am engaged in <strong>Large Circuit Model</strong> project in <strong>National Center of Technology Innovation for EDA</strong> supervised by [**Professor XU Qiang**](https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl=zh-CN).
-- *2024.03*: &nbsp;🎉🎉 I joined the <a href='https://ccvl.jhu.edu'> <strong>CCVL at Johns Hopkins University</strong></a> research group to do research with [**Professor Alan Yuille**](https://scholar.google.com/citations?user=FJ-huxgAAAAJ&hl=zh-CN) and [**Dr. Zhou Zongwei**](https://scholar.google.com/citations?user=JVOeczAAAAAJ&hl=en).
 
 # 📝 Publications 
 
