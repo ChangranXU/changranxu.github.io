@@ -62,7 +62,7 @@ redirect_from:
 # 🎖 Research
 - *2024.05 - Present*: Large Circuit Model, **Research Assistant/Algorithm Engineer**, supervised by [**Professor XU Qiang**](https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl=zh-CN) [**EDA, Machine Learning, LLM, GNN**]
 - *2024.03 - 2024.08*: Medical Imaging Analysis, **Research Intern**, supervised by [**Professor Alan Yuille**](https://scholar.google.com/citations?user=FJ-huxgAAAAJ&hl=zh-CN) and [**Dr. Zhou Zongwei**](https://scholar.google.com/citations?user=JVOeczAAAAAJ&hl=en) [**Computer Vision, Machine Learning, Medical Imaging Analysis, Mixture of Experts**]
-- *2023.12 - 2024.09*: Application of Computer Vision in Biomedical Engineering, **Research Assistant**, supervised by [**Dr. Wei yuanyuan**](https://scholar.google.com/citations?user=K3Xmwr8AAAAJ&hl=zh-CN) [**Computer Vision, Machine Learning, BME**]
+- *2023.12 - 2024.09*: Application of Computer Vision in Biomedical Engineering, **Research Assistant**, supervised by [**Dr. Wei Yuanyuan**](https://scholar.google.com/citations?user=K3Xmwr8AAAAJ&hl=zh-CN) [**Computer Vision, Machine Learning, BME**]
 - *2023.09 - 2024.05*: Bootstrapping AI-Generated Content and Medical Imaging Analysis, **Research Assistant**, supervised by [**Professor XU Qiang**](https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl=zh-CN) [**AIGC, Machine Learning, Medical Imaging Analysis**]
 - *2023.06 - 2023.08*: SmartNIC Performance Profiling and Prediction, **Research Assistant**, supervised by [**Professor XU Hong**](https://scholar.google.com/citations?user=BZHzIFIAAAAJ&hl=en) [**SmartNIC, Network Performance**]       
 
