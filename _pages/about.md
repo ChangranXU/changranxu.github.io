@@ -27,6 +27,7 @@ redirect_from:
 # 🔥 News
 - *2024.10*: &nbsp;🎉🎉 Our team's dataset ranked **4th** place among participating teams and won the **Honorable Mention Award** at the **[LLM4HWDesign @ ICCAD 2024](https://nvlabs.github.io/LLM4HWDesign/results.html)**.
 - *2024.10*: &nbsp;🎉🎉 One abstract paper has been accepted by **[2025 SPIE Photonics West](https://spie.org/conferences-and-exhibitions/photonics-west#_=_)**.
+- *2024.07*: &nbsp;🎉🎉 I am honored to have been named to the **Dean's List** for the 2023-24 academic year in the Faculty of Engineering at The Chinese University of Hong Kong (CUHK).
 - *2024.05*: &nbsp;🎉🎉 I am engaged in <strong>Large Circuit Model</strong> project in <strong>National Center of Technology Innovation for EDA</strong> supervised by [**Professor XU Qiang**](https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl=zh-CN).
 
 # 📝 Publications 
