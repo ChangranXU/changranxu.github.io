@@ -30,7 +30,7 @@ redirect_from:
 - *2024.07*: &nbsp;🎉🎉 I am honored to have been named to the **Dean's List** for the 2023-24 academic year in the Faculty of Engineering at The Chinese University of Hong Kong (CUHK).
 - *2024.05*: &nbsp;🎉🎉 I am engaged in <strong>Large Circuit Model</strong> project in <strong>National Center of Technology Innovation for EDA</strong> supervised by [**Professor XU Qiang**](https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl=zh-CN).
 
-# 📝 Publications 
+# 📝 Publications <a href='https://scholar.google.com/citations?user=4_KIgHkAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
