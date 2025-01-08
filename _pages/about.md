@@ -64,11 +64,11 @@ redirect_from:
 † denotes equal contribution
 
 # 🎖 Research
-- *2024.05 - Present*: Large Circuit Model, **Research Assistant/Algorithm Engineer**, supervised by [**Professor XU Qiang**](https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl=zh-CN) [**EDA, Machine Learning, LLM, GNN**]
-- *2024.03 - 2024.08*: Medical Imaging Analysis, **Research Intern**, supervised by [**Professor Alan Yuille**](https://scholar.google.com/citations?user=FJ-huxgAAAAJ&hl=zh-CN) and [**Dr. Zhou Zongwei**](https://scholar.google.com/citations?user=JVOeczAAAAAJ&hl=en) [**Computer Vision, Machine Learning, Medical Imaging Analysis, Mixture of Experts**]
-- *2023.12 - 2024.09*: Application of Computer Vision in Biomedical Engineering, **Research Assistant**, supervised by [**Dr. Wei Yuanyuan**](https://scholar.google.com/citations?user=K3Xmwr8AAAAJ&hl=zh-CN) [**Computer Vision, Machine Learning, BME**]
-- *2023.09 - 2024.05*: Bootstrapping AI-Generated Content and Medical Imaging Analysis, **Research Assistant**, supervised by [**Professor XU Qiang**](https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl=zh-CN) [**AIGC, Machine Learning, Medical Imaging Analysis**]
-- *2023.06 - 2023.08*: SmartNIC Performance Profiling and Prediction, **Research Assistant**, supervised by [**Professor XU Hong**](https://scholar.google.com/citations?user=BZHzIFIAAAAJ&hl=en) [**SmartNIC, Network Performance**]       
+- *2024.05 - Present*: Large Circuit Model, **Research Assistant/Algorithm Engineer**, supervised by [**Professor XU Qiang**](https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl=zh-CN).
+- *2024.03 - 2024.08*: Medical Imaging Analysis, **Research Intern**, supervised by [**Professor Alan Yuille**](https://scholar.google.com/citations?user=FJ-huxgAAAAJ&hl=zh-CN) and [**Dr. Zhou Zongwei**](https://scholar.google.com/citations?user=JVOeczAAAAAJ&hl=en).
+- *2023.12 - 2024.09*: Application of Computer Vision in Biomedical Engineering, **Research Assistant**, supervised by [**Dr. Wei Yuanyuan**](https://scholar.google.com/citations?user=K3Xmwr8AAAAJ&hl=zh-CN).
+- *2023.09 - 2024.05*: Bootstrapping AI-Generated Content and Medical Imaging Analysis, **Research Assistant**, supervised by [**Professor XU Qiang**](https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl=zh-CN).
+- *2023.06 - 2023.08*: SmartNIC Performance Profiling and Prediction, **Research Assistant**, supervised by [**Professor XU Hong**](https://scholar.google.com/citations?user=BZHzIFIAAAAJ&hl=en).     
 
 # 📖 Educations
 - *2020.09 - 2024.08*, <strong>The Chinese University of Hong Kong</strong>, Bachelor of Science in Computer Science, First Class Honours.
@@ -81,7 +81,7 @@ redirect_from:
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Work Experience
-- *2024.05 - Present*: National Center of Technology Innovation for EDA, Nanjing, Algorithm Engineer, [**LLM, Machine Learning**]
+- *2024.05 - Present*: National Center of Technology Innovation for EDA, Nanjing, Algorithm Engineer. ![](https://img.shields.io/badge/LLM,_EDA,_Machine_Learning-grey)
 - *2023.07 - 2023.08*: Flourish Entertainment Agent Company, Hong Kong, Web Developer Assistant, [**Web Development, Frontend, Backend**]
 - *2023.05 - 2023.08*: [**Legal Expression**](https://www.legalexpression.com), Full-Stack Developer **(Entrepreneurship)**, [**Web Development, Frontend, Backend, LLM**]
 - *2022.05 - 2022.08*: Hongtai Water Resources Information Technology Co, Ltd, Ningbo, Front-End Engineer Trainee, [**Web Development, Frontend**]    
