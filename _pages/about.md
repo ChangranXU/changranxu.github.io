@@ -45,7 +45,7 @@ redirect_from:
 </div> -->
 
 ### AIGC
-  - ``Arxiv Preprint`` **[Evaluating Text-to-Image Generative Models: An Empirical Study on Human Image Synthesis](https://arxiv.org/pdf/2403.05125.pdf)**, *Muxi Chen* †, *Yi Liu* †, *Jian Yi*, **Changran Xu**, *Qiuxia Lai*, *Hongliang Wang*, *Tsung-Yi Ho*, *Qiang Xu*. [![](https://img.shields.io/github/stars/cure-lab/EvaluateAIGC?style=social&label=Code+Stars)](https://github.com/cure-lab/EvaluateAIGC)
+  - ``Arxiv Preprint`` **[Evaluating Text-to-Image Generative Models: An Empirical Study on Human Image Synthesis](https://arxiv.org/pdf/2403.05125.pdf)**, *Muxi Chen*†, *Yi Liu*†, *Jian Yi*, **Changran Xu**, *Qiuxia Lai*, *Hongliang Wang*, *Tsung-Yi Ho*, *Qiang Xu*. [![](https://img.shields.io/github/stars/cure-lab/EvaluateAIGC?style=social&label=Code+Stars)](https://github.com/cure-lab/EvaluateAIGC)
 
 ### BME
   - ``Advanced Science`` **[SAM‐dPCR: Accurate and Generalist Nuclei Acid Quantification Leveraging the Zero‐Shot Segment Anything Model](https://doi.org/10.1002/advs.202406797)**, *Yuanyuan Wei*, *Shanhang Luo*, **Changran Xu**, *Yingqi Fu*, *Qingyue Dong*, *Yi Zhang*, *Fuyang Qu*, *Guangyao Cheng*, *Yi-Ping Ho*, *Ho-Pui Ho*, *Wu Yuan*. [![](https://img.shields.io/github/stars/WEI-yuanyuan/SAM-dPCR?style=social&label=Code+Stars)](https://github.com/WEI-yuanyuan/SAM-dPCR)
