@@ -71,10 +71,10 @@ redirect_from:
 - *2023.06 - 2023.08*: SmartNIC Performance Profiling and Prediction, **Research Assistant**, supervised by [**Professor XU Hong**](https://scholar.google.com/citations?user=BZHzIFIAAAAJ&hl=en).     
 
 # 📖 Educations
-- *2020.09 - 2024.08*, <strong>The Chinese University of Hong Kong</strong>, Bachelor of Science in Computer Science, First Class Honours.
-- *2024.06 - 2024.08*, <strong>Johns Hopkins University</strong>, Visiting Student
-- *2021.06 - 2021.07 and 2022.06 - 2022.07*, <strong>Peking University</strong>, Summer School
-- *2017.09 - 2020.08*, <strong>Ningbo Yinzhou High School (宁波市鄞州中学)</strong>, Elite Stream Class, High School Diploma. 
+- <img height="25" src="/images/cuhk_logo.png" width="25" style="vertical-align: middle;"/> *2020.09 - 2024.08*, <strong>The Chinese University of Hong Kong</strong>, Bachelor of Science in Computer Science, First Class Honours.
+- <img height="25" src="/images/jhu_logo.png" width="25" style="vertical-align: middle;"/> *2024.06 - 2024.08*, <strong>Johns Hopkins University</strong>, Visiting Student
+- <img height="25" src="/images/pku_logo.png" width="25" style="vertical-align: middle;"/> *2021.06 - 2021.07 and 2022.06 - 2022.07*, <strong>Peking University</strong>, Summer School
+- <img height="25" src="/images/yinzhou_logo.png" width="25" style="vertical-align: middle;"/> *2017.09 - 2020.08*, <strong>Ningbo Yinzhou High School (宁波市鄞州中学)</strong>, Elite Stream Class, High School Diploma. 
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
