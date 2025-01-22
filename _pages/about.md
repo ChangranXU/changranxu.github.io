@@ -25,10 +25,11 @@ redirect_from:
 💼 I welcome all opportunities for discussion, learning, and collaboration. If you have any opportunities related to work, study, or collaboration in these areas, please feel free to reach out to me.
 
 # 🔥 News
+- *2025.01*: &nbsp;🎉🎉 One paper accepted by <span style="color: darkblue;">**ICLR 2025**</span>.
 - *2024.12*: &nbsp;🎉🎉 One paper accepted by <span style="color: darkblue;">**Advanced Science**</span>.
 - *2024.10*: &nbsp;🎉🎉 Our team's dataset ranked **4th** place among participating teams and won the **Honorable Mention Award** at the **[LLM4HWDesign @ ICCAD 2024](https://nvlabs.github.io/LLM4HWDesign/results.html)**.
 - *2024.10*: &nbsp;🎉🎉 One abstract paper has been accepted by **[2025 SPIE Photonics West](https://spie.org/conferences-and-exhibitions/photonics-west#_=_)**.
-- *2024.07*: &nbsp;🎉🎉 I am honored to have been named to the **Dean's List** for the 2023-24 academic year in the Faculty of Engineering at The Chinese University of Hong Kong (CUHK).
+<!-- - *2024.07*: &nbsp;🎉🎉 I am honored to have been named to the **Dean's List** for the 2023-24 academic year in the Faculty of Engineering at The Chinese University of Hong Kong (CUHK). -->
 
 # 📝 Publications
 
@@ -44,7 +45,8 @@ redirect_from:
 </div>
 </div> -->
 
-### AIGC
+### AI
+  - ``ICLR 2025`` **DeepRTL: Bridging Verilog Understanding and Generation with a Unified Representation Model**, *Yi Liu*, **Changran XU**, *Yunhao Zhou*, *Zeju Li*, *Qiang Xu* 
   - ``Arxiv Preprint`` **[Evaluating Text-to-Image Generative Models: An Empirical Study on Human Image Synthesis](https://arxiv.org/pdf/2403.05125.pdf)**, *Muxi Chen*<sup>†</sup>, *Yi Liu*<sup>†</sup>, *Jian Yi*, **Changran Xu**, *Qiuxia Lai*, *Hongliang Wang*, *Tsung-Yi Ho*, *Qiang Xu*. [![](https://img.shields.io/github/stars/cure-lab/EvaluateAIGC?style=social&label=Code+Stars)](https://github.com/cure-lab/EvaluateAIGC)
 
 ### BME
