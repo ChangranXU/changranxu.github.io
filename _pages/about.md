@@ -20,7 +20,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-🎓 I earned a Bachelor of Science degree with First Class Honours from **The Chinese University of Hong Kong** in August 2025. And now, I am engaged in various exciting projects related to **LLM, GNN, and Machine Learning**.
+🎓 I earned a Bachelor of Science degree with First Class Honours from **The Chinese University of Hong Kong** in August 2024. And now, I am engaged in various exciting projects related to **LLM, GNN, and Machine Learning**.
 
 💼 I welcome all opportunities for discussion, learning, and collaboration. If you have any opportunities related to work, study, or collaboration in these areas, please feel free to reach out to me.
 
