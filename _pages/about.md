@@ -46,7 +46,7 @@ redirect_from:
 </div> -->
 
 ### 2025
-  - ``ICLR 2025`` **[DeepRTL: Bridging Verilog Understanding and Generation with a Unified Representation Model](https://openreview.net/forum?id=2hcfoCHKoB&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2025%2FConference%2FAuthors%23your-submissions))**, *Yi Liu*, **Changran Xu**, *Yunhao Zhou*, *Zeju Li*, *Qiang Xu*
+  - ``ICLR 2025 Spotlight`` **[DeepRTL: Bridging Verilog Understanding and Generation with a Unified Representation Model](https://openreview.net/forum?id=2hcfoCHKoB&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2025%2FConference%2FAuthors%23your-submissions))**, *Yi Liu*, **Changran Xu**, *Yunhao Zhou*, *Zeju Li*, *Qiang Xu*
 
 ### 2024
   - ``Arxiv Preprint`` **[Evaluating Text-to-Image Generative Models: An Empirical Study on Human Image Synthesis](https://arxiv.org/pdf/2403.05125.pdf)**, *Muxi Chen*<sup>†</sup>, *Yi Liu*<sup>†</sup>, *Jian Yi*, **Changran Xu**, *Qiuxia Lai*, *Hongliang Wang*, *Tsung-Yi Ho*, *Qiang Xu*. [![](https://img.shields.io/github/stars/cure-lab/EvaluateAIGC?style=social&label=Code+Stars)](https://github.com/cure-lab/EvaluateAIGC)
