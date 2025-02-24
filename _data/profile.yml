@@ -64,25 +64,32 @@ experience:
   date: 2022.05 - 2022.08
 
 awards:
-- name: • Honorable Mention Award of <a href="https://nvlabs.github.io/LLM4HWDesign/results.html">LLM4HWDesign @ ICCAD 2024</a>
+- name: Honorable Mention Award of <a href="https://nvlabs.github.io/LLM4HWDesign/results.html">LLM4HWDesign @ ICCAD 2024</a>
+  logo: assets/images/badges/honor.png
   date: 2024
-- name: • Dean's List of Faculty of Engineering, CUHK
+- name: Dean's List of Faculty of Engineering, CUHK
+  logo: assets/images/badges/honor.png
   date: 2024
 
 research:
 - name: Large Circuit Model
+  logo: assets/images/badges/research.png
   position: Research Assistant, supervised by <a href="https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl">Professor XU Qiang</a>
   date: 2024.05 - Present
 - name: Medical Imaging Analysis
+  logo: assets/images/badges/research.png
   position: Research Intern, supervised by <a href="https://scholar.google.com/citations?user=FJ-huxgAAAAJ&hl">Professor Alan Yuille</a> and <a href="https://scholar.google.com/citations?user=JVOeczAAAAAJ&hl">Dr. Zhou Zongwei</a>
   date: 2024.03 - 2024.08
 - name: Application of Computer Vision in Biomedical Engineering
+  logo: assets/images/badges/research.png
   position: Research Assistant, supervised by <a href="https://scholar.google.com/citations?user=K3Xmwr8AAAAJ&hl">Dr. Wei Yuanyuan</a>
   date: 2023.12 - 2024.09
 - name: Bootstrapping AI-Generated Content and Medical Imaging Analysis
+  logo: assets/images/badges/research.png
   position: Research Assistant, supervised by <a href="https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl">Professor XU Qiang</a>
   date: 2023.09 - 2024.05
 - name: SmartNIC Performance Profiling and Prediction
+  logo: assets/images/badges/research.png
   position: Research Assistant, supervised by <a href="https://scholar.google.com/citations?user=BZHzIFIAAAAJ&hl">Professor XU Hong</a>
   date: 2023.06 - 2023.08
 
