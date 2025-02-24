@@ -65,7 +65,22 @@ awards:
 - name: <strong>Dean's List</strong> of Faculty of Engineering, CUHK
   date: 2024
 
-
+research:
+- name: Large Circuit Model
+  position: Research Assistant, supervised by <a href="https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl">Professor XU Qiang</a>
+  date: 2024.05 - Present
+- name: Medical Imaging Analysis
+  position: Research Intern, supervised by <a href="https://scholar.google.com/citations?user=FJ-huxgAAAAJ&hl">Professor Alan Yuille</a> and <a href="https://scholar.google.com/citations?user=JVOeczAAAAAJ&hl">Dr. Zhou Zongwei</a>
+  date: 2024.03 - 2024.08
+- name: Application of Computer Vision in Biomedical Engineering
+  position: Research Assistant, supervised by <a href="https://scholar.google.com/citations?user=K3Xmwr8AAAAJ&hl">Dr. Wei Yuanyuan</a>
+  date: 2023.12 - 2024.09
+- name: Bootstrapping AI-Generated Content and Medical Imaging Analysis
+  position: Research Assistant, supervised by <a href="https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl">Professor XU Qiang</a>
+  date: 2023.09 - 2024.05
+- name: SmartNIC Performance Profiling and Prediction
+  position: Research Assistant, supervised by <a href="https://scholar.google.com/citations?user=BZHzIFIAAAAJ&hl">Professor XU Hong</a>
+  date: 2023.06 - 2023.08
 
 # service:
 # - name: Reviewer of <a href="https://www.embs.org/jbhi/">Journal of Biomedical and Health Informatics (JBHI)</a>
