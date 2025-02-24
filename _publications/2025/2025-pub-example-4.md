@@ -5,7 +5,7 @@ selected:       false
 pub:            "Preprint"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
-pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">DAC</span>'
+pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Preprint</span>'
 pub_date:       "2025"
 
   
