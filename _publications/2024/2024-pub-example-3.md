@@ -1,5 +1,5 @@
 ---
-title:          Accurate nucleic acids quantification in dPCR using zero-shot Segment Anything Model
+title:          "Accurate nucleic acids quantification in dPCR using zero-shot Segment Anything Model"
 date:           2024-10-19 00:01:00 +0800
 selected:       false
 pub:            "2025 SPIE Photonics West"
