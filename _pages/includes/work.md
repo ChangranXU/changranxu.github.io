@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: default
 title: "Work"
 permalink: /work/
 author_profile: true
