@@ -1,0 +1,74 @@
+primary_name: "Changran Xu"
+secondary_name: ""
+navbar_name: "Changran Xu's Home Page"
+
+positions:
+  - '<span class="no-break"><img src="assets/images/badges/cuhk_logo.png" alt="The Chinese University of Hong Kong" class="inline-badge"/></span> Student, The Chinese University of Hong Kong'
+
+email: "crxu@link.cuhk.edu.hk"
+gscholar: 4_KIgHkAAAAJ
+# sscholar: 
+github: ChangranXU
+# twitter: 
+# wechat_qrcode: assets/images/etc/wechat.jpg
+# wechat_prompt: >-
+#   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
+# zhihu: 
+# resume: assets/cv/Resume.pdf
+linkedin: changran-xu-2187ab299
+# orcid: 0000-0000-0000-0000
+
+short_bio: >-
+  I am Changran Xu, I earned a Bachelor of Science degree with First Class Honours from **The Chinese University of Hong Kong** in August 2024. And now, I am engaged in various exciting projects related to **LLM, GNN, and Machine Learning**.I earned a Bachelor of Science degree with First Class Honours from **The Chinese University of Hong Kong** in August 2024. And now, I am engaged in various exciting projects related to **LLM, GNN, and Machine Learning**. I welcome all opportunities for discussion, learning, and collaboration. <strong><span style="color:red">If you have any opportunities related to work, study, or collaboration in these areas, please feel free to reach out to me.</span></strong>
+
+show_portrait: true
+portrait_url: assets/images/photos/ChangranXU.JPG
+portrait_caption: >-
+  Welcome~
+
+education:
+- name: The Chinese University of Hong Kong
+  logo: assets/images/badges/cuhk_logo.png
+  position: Bachelor of Science in Computer Science, First Class Honours
+  date: 2020.09 - 2024.08
+- name: Johns Hopkins University
+  logo: assets/images/badges/jhu_logo.png
+  position: Visiting Student
+  date: 2024.06 - 2024.08
+- name: Peking University
+  logo: assets/images/badges/pku_logo.png
+  position: Summer School
+  date: 2021.06 - 2021.07 and 2022.06 - 2022.07
+- name: Ningbo Yinzhou High School (宁波市鄞州中学)
+  logo: assets/images/badges/yinzhou_logo.png
+  position: High School Diploma, Elite Stream Class
+  date: 2017.09 - 2020.08
+
+  
+experience:
+- name: National Center of Technology Innovation for EDA, Nanjing
+  position: Algorithm Engineer
+  date: 2024.05 - Present
+- name: Flourish Entertainment Agent Company, Hong Kong
+  position: Web Developer Assistant
+  date: 2023.07 - 2023.08
+- name: Legal Expression, Hong Kong
+  position: Full-Stack Developer (Entrepreneurship)
+  date: 2023.05 - 2023.08
+- name: Hongtai Water Resources Information Technology Co, Ltd, Ningbo
+  position: Front-End Engineer Trainee
+  date: 2022.05 - 2022.08
+
+awards:
+- name: <strong>Honorable Mention Award</strong> of <a href="https://nvlabs.github.io/LLM4HWDesign/results.html">LLM4HWDesign @ ICCAD 2024</a>
+  date: 2024
+
+
+# service:
+# - name: Reviewer of <a href="https://www.embs.org/jbhi/">Journal of Biomedical and Health Informatics (JBHI)</a>
+# - name: Reviewer of <a href="https://2025.ieeeicme.org/">ICME 2025</a>
+
+# Feel free to replace the footer text if you would like to, but I will greatly appreciate it 
+# if you keep the link to the template so that more people can benefit from it. Thanks!
+footer_text: >-
+  Copyright © 2025 <a href="https://github.com/ChangranXU" target="_blank">Changran Xu</a>. All Rights Reserved.
