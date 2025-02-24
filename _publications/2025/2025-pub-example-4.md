@@ -26,5 +26,5 @@ authors:
   - Qiang Xu.
 
 links:
-  Project: https://zeju.gitbook.io/lcm-team
+  Project: https://zeju.gitbook.io/lcm-team/deepcircuitx/introduction-of-our-dataset
 ---
