@@ -18,15 +18,12 @@
                         </p>
                     </div>
                     {% if site.data.profile.show_portrait %}
-                    <div class="col-md-auto d-none d-md-block">
+                    <div class="col-md-auto d-md-block">
                         <figure class="figure">
                             <img 
                                 src="{{ site.data.profile.portrait_url }}" 
                                 class="figure-img img-fluid img-thumbnail" 
                                 style="height: 250px;"
-                                data-toggle="tooltip" 
-                                data-placement="top" 
-                                title="{{ site.data.profile.portrait_caption }}"
                             >
                             <figcaption class="figure-caption text-right"></figcaption>
                         </figure>
