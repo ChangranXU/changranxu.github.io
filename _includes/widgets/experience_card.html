@@ -69,7 +69,11 @@
                             <h6>Honors & Awards</h6>
                             <ul class="list-unstyled mb-1">
                                 {% for item in site.data.profile.awards %}
-                                <li class="media mb-1"><p class="my-0">{{ item.name }} <em class="float-right">{{ item.date }}</em></li></p>
+                                <li class="media mb-1">
+                                    <div class="media-body">
+                                        <p class="my-0">{{ item.name }} <em class="float-right">{{ item.date }}</em></p>
+                                    </div>
+                                </li>
                                 {% endfor %}
                             </ul>
                         </div>
