@@ -67,9 +67,9 @@
                     <div class="col-12">
                         <div class="mx-2 my-1">
                             <h6>Honors & Awards</h6>
-                            <ul class="list small pl-3 mb-1">
+                            <ul class="list-unstyled mb-1">
                                 {% for item in site.data.profile.awards %}
-                                <li>{{ item.name }} <em class="float-right">{{ item.date }}</em></li>
+                                <li class="media mb-1"><p class="my-0">{{ item.name }} <em class="float-right">{{ item.date }}</em></li></p>
                                 {% endfor %}
                             </ul>
                         </div>
