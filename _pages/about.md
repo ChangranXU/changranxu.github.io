@@ -25,6 +25,7 @@ redirect_from:
 💼 I welcome all opportunities for discussion, learning, and collaboration. If you have any opportunities related to work, study, or collaboration in these areas, please feel free to reach out to me.
 
 # 🔥 News
+- *2025.02*: &nbsp;🎉🎉 One paper accepted by <span style="color: darkblue;">**DAC 2025**</span>.
 - *2025.01*: &nbsp;🎉🎉 One paper accepted by <span style="color: darkblue;">**ICLR 2025 Spotlight**</span>.
 - *2024.12*: &nbsp;🎉🎉 One paper accepted by <span style="color: darkblue;">**Advanced Science**</span>.
 - *2024.10*: &nbsp;🎉🎉 Our team's dataset ranked **4th** place among participating teams and won the **Honorable Mention Award** at the **[LLM4HWDesign @ ICCAD 2024](https://nvlabs.github.io/LLM4HWDesign/results.html)**.
