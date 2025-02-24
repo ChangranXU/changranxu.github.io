@@ -3,9 +3,9 @@
 {%- assign i = 0 -%}
 {%- for _key in authors -%}
     {%- assign last_char = _key | slice: -1, 1%}
-    {%- if last_char == "†" -%}
-        {%- assign key = _key | split: "†" | first -%}
-        {%- assign mark = "†" -%}
+    {%- if last_char == "&#x2020;" -%}
+        {%- assign key = _key | split: "&#x2020;" | first -%}
+        {%- assign mark = "&#x2020;" -%}
         {%- assign has_eq_contrib = true -%}
     {%- else -%}
         {%- assign key = _key -%}
@@ -37,5 +37,5 @@
 {%- endfor -%}
 
 {%- if has_eq_contrib == true -%}
-<mark> († <i> equal contribution</i>)</mark>
+<mark> (&#x2020; <i> equal contribution</i>)</mark>
 {%- endif -%}

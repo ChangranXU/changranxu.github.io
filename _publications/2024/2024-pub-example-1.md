@@ -10,8 +10,8 @@ pub_date:       "2024"
 
   
 authors:
-  - Muxi Chen†
-  - Yi Liu†
+  - Muxi Chen&#x2020;
+  - Yi Liu&#x2020;
   - Jian Yi
   - Changran Xu
   - Qiuxia Lai
