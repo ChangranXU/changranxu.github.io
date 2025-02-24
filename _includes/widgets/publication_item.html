@@ -7,7 +7,7 @@
         </div>
         {% endif %}
         <div class="{% if item.cover %}col-md-9 col-xl-10{% else %}col-12{% endif %} p-3 pl-md-0">
-            <h5 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h5>
+            <h6 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h6>
             <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
             <p class="mt-0 mb-0 small">{{ item.pub_pre }}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }}</p>
 
@@ -32,7 +32,7 @@
         </div>
         {% endif %}
         <div class="{% if item.cover %}col-9{% else %}col-12{% endif %} p-3">
-            <h5 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h5>
+            <h6 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h6>
             <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
             <p class="mt-0 mb-0 small">{{ item.pub_pre }}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }}</p>
             <p class="mt-0 mb-0 small text-muted d-none d-sm-block">{{ item.abstract }}</p>
