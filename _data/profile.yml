@@ -1,6 +1,6 @@
 primary_name: "Changran Xu"
 secondary_name: ""
-navbar_name: "<img src='assets/images/etc/apple-icon-57x57.png' style='vertical-align: middle;'/> Changran Xu's Home Page"
+navbar_name: "<img src='assets/images/etc/apple-icon.png' style='vertical-align: middle; width: 30px; height: auto;'/> Changran Xu's Home Page"
 
 positions:
   - '<span class="no-break"><img src="assets/images/badges/cuhk_logo.png" alt="The Chinese University of Hong Kong" class="inline-badge"/></span> Student, The Chinese University of Hong Kong'
