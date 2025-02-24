@@ -10,8 +10,8 @@ pub_date:       "2025"
 
   
 authors:
-  - Changran Xu&#x2020;
-  - Yi Liu&#x2020;
+  - Changran Xu*
+  - Yi Liu*
   - Yunhao Zhou
   - Shan Huang
   - Ningyi Xu
