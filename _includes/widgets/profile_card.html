@@ -2,7 +2,7 @@
     <div class="col">
         <div class="card border-0 shadow-sm bg-white">
             <div class="card-body p-5">
-                <div class="row">
+                <div class="row d-flex align-items-center">
                     <div class="col">
                         <p class="h1 font-weight-normal">{{ site.data.profile.primary_name }} <small>{{ site.data.profile.secondary_name }}</small></p>
                         <p class="text-profile-position">
@@ -13,17 +13,17 @@
                             <a target="_blank" href="{{ site.data.profile.cv_link }}"><i class="fas fa-file-alt"></i> [Curriculum Vitae]</a> <br/>
                             {% endif %}
                         </p>
-                        <p class="text-profile-bio">
+                        <p class="text-profile-bio mb-0" style="flex-grow: 1;">
                             {{ site.data.profile.short_bio }}
                         </p>
                     </div>
                     {% if site.data.profile.show_portrait %}
                     <div class="col-md-auto d-none d-md-block">
-                        <figure class="figure">
+                        <figure class="figure" style="height: 250px; display: flex; align-items: center;">
                             <img 
                                 src="{{ site.data.profile.portrait_url }}" 
                                 class="figure-img img-fluid img-thumbnail" 
-                                style="height: 250px;"
+                                style="height: 100%;"
                                 data-toggle="tooltip" 
                                 data-placement="top" 
                                 title="{{ site.data.profile.portrait_caption }}"
@@ -32,8 +32,10 @@
                         </figure>
                     </div>
                     {% endif %}
-        
                 </div>
+            </div>
+        </div>
+    </div>
                 <hr />
                 <div class="row">
                     <div class="col">
