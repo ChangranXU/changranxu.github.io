@@ -1,6 +1,6 @@
 ---
 title:          Evaluating Text-to-Image Generative Models: An Empirical Study on Human Image Synthesis
-date:           2024-03-08 00:00:00 -0800
+date:           2024-03-08 00:01:00 +0800
 selected:       false
 pub:            "arXiv"
 # pub_pre:        "Submitted to "
