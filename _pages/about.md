@@ -35,3 +35,10 @@ redirect_from:
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
+
+
+{% include_relative includes/research.md %}
+
+{% include_relative includes/education.md %}
+
+{% include_relative includes/work.md %}
