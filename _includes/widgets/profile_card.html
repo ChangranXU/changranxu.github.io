@@ -4,7 +4,7 @@
             <div class="card-body p-5">
                 <div class="row">
                     {% if site.data.profile.show_portrait %}
-                    <div class="col-md-4 d-md-block">
+                    <div class="col-md-auto d-md-block">
                         <figure class="figure">
                             <img 
                                 src="{{ site.data.profile.portrait_url }}" 
@@ -15,7 +15,7 @@
                         </figure>
                     </div>
                     {% endif %}
-
+                    
                     <div class="col">
                         <p class="h1 font-weight-normal">{{ site.data.profile.primary_name }} <small>{{ site.data.profile.secondary_name }}</small></p>
                         <p class="text-profile-position">
