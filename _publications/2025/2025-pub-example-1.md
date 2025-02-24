@@ -1,7 +1,7 @@
 ---
 title:          DeepRTL: Bridging Verilog Understanding and Generation with a Unified Representation Model
 date:           2025-01-23 00:00:00 -0800
-selected:       true
+selected:       false
 pub:            "International Conference on Learning Representations (ICLR), 2025"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
