@@ -1,12 +1,3 @@
----
-layout: default
-title: "Education"
-permalink: /education/
-author_profile: true
-redirect_from:
-
----
-
 # 📖 Education
 - <img height="25" src="/images/cuhk_logo.png" width="25" style="vertical-align: middle;"/> *2020.09 - 2024.08*, <strong>The Chinese University of Hong Kong</strong>, Bachelor of Science in Computer Science, First Class Honours.
 - <img height="25" src="/images/jhu_logo.png" width="25" style="vertical-align: middle;"/> *2024.06 - 2024.08*, <strong>Johns Hopkins University</strong>, Visiting Student
