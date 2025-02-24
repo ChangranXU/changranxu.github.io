@@ -1,5 +1,5 @@
 ---
-title:          "DeepRTL: Bridging Verilog Understanding and Generation with a Unified Representation Model"
+title:          "<strong>DeepRTL: Bridging Verilog Understanding and Generation with a Unified Representation Model</strong>"
 date:           2025-01-23 00:01:00 +0800
 selected:       true
 pub:            "International Conference on Learning Representations (ICLR)"

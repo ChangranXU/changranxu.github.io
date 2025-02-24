@@ -1,5 +1,5 @@
 ---
-title:          "SAM‐dPCR: Accurate and Generalist Nuclei Acid Quantification Leveraging the Zero‐Shot Segment Anything Model"
+title:          "<strong>SAM‐dPCR: Accurate and Generalist Nuclei Acid Quantification Leveraging the Zero‐Shot Segment Anything Model</strong>"
 date:           2024-12-28 16:15:00 +0800
 selected:       true
 pub:            "Advanced Science"

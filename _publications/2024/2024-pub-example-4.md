@@ -1,5 +1,5 @@
 ---
-title:          "Artificial Intelligence Enhanced Digital Nucleic Acid Amplification Testing for Precision Medicine and Molecular Diagnostics"
+title:          "<strong>Artificial Intelligence Enhanced Digital Nucleic Acid Amplification Testing for Precision Medicine and Molecular Diagnostics</strong>"
 date:           2024-07-30 00:01:00 +0800
 selected:       false
 pub:            "arXiv"
