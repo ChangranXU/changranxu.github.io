@@ -3,6 +3,19 @@
         <div class="card border-0 shadow-sm bg-white">
             <div class="card-body p-5">
                 <div class="row">
+                    {% if site.data.profile.show_portrait %}
+                    <div class="col-md-auto d-md-block">
+                        <figure class="figure">
+                            <img 
+                                src="{{ site.data.profile.portrait_url }}" 
+                                class="figure-img img-fluid img-thumbnail" 
+                                style="height: 250px;"
+                            >
+                            <figcaption class="figure-caption text-right"></figcaption>
+                        </figure>
+                    </div>
+                    {% endif %}
+                    
                     <div class="col">
                         <p class="h1 font-weight-normal">{{ site.data.profile.primary_name }} <small>{{ site.data.profile.secondary_name }}</small></p>
                         <p class="text-profile-position">
@@ -17,18 +30,6 @@
                             {{ site.data.profile.short_bio }}
                         </p>
                     </div>
-                    {% if site.data.profile.show_portrait %}
-                    <div class="col-md-auto d-md-block">
-                        <figure class="figure">
-                            <img 
-                                src="{{ site.data.profile.portrait_url }}" 
-                                class="figure-img img-fluid img-thumbnail" 
-                                style="height: 250px;"
-                            >
-                            <figcaption class="figure-caption text-right"></figcaption>
-                        </figure>
-                    </div>
-                    {% endif %}
         
                 </div>
                 <hr />
