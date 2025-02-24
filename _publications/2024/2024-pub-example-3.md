@@ -1,25 +1,22 @@
 ---
-title:          "<strong>Accurate nucleic acids quantification in dPCR using zero-shot Segment Anything Model</strong>"
-date:           2024-10-19 00:01:00 +0800
+title:          "<strong>Artificial Intelligence Enhanced Digital Nucleic Acid Amplification Testing for Precision Medicine and Molecular Diagnostics</strong>"
+date:           2024-07-30 00:01:00 +0800
 selected:       false
-pub:            "2025 SPIE Photonics West"
+pub:            "arXiv"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
-pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">SPIE</span>'
+pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Preprint</span>'
 pub_date:       "2024"
 
   
 authors:
   - Yuanyuan Wei
+  - Xianxian Liu
   - Changran Xu
-  - Shanheng Luo
-  - Yingqi Fu
-  - Qingyue Dong
-  - Wen Lyu
-  - Bijie Bai
-  - Yi-Ping Ho
-  - Ho-Pui Ho
+  - Guoxun Zhang
   - Wu Yuan
+  - Ho-Pui Ho
+  - Mingkun Xu
 links:
-  Paper: https://spie.org/photonics-west/presentation/Accurate-nucleic-acids-quantification-in-dPCR-using-zero-shot-Segment/13333-53
+  Paper: https://arxiv.org/pdf/2407.21080
 ---

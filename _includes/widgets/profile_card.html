@@ -18,12 +18,12 @@
                         </p>
                     </div>
                     {% if site.data.profile.show_portrait %}
-                    <div class="col-md-auto d-none d-md-block" style="height: 100%;">
-                        <figure class="figure" style="height: 100%;">
+                    <div class="col-md-auto d-none d-md-block">
+                        <figure class="figure" style="height: 100%; display: flex; align-items: center; justify-content: center;">
                             <img 
                                 src="{{ site.data.profile.portrait_url }}" 
                                 class="figure-img img-fluid img-thumbnail" 
-                                style="height: 100%; width: auto; object-fit: cover;"
+                                style="max-height: 100%; width: auto; object-fit: cover;"
                                 data-toggle="tooltip" 
                                 data-placement="top" 
                                 title="{{ site.data.profile.portrait_caption }}"
