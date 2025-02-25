@@ -1,6 +1,6 @@
 ---
 title:          "<strong>DeepCircuitX: Repository-Level RTL Dataset for Code Understanding, Generation, and Multimodal Analysis.</strong>"
-date:           2025-02-27 00:01:00 +0800
+date:           2025-01-01 00:01:00 +0800
 selected:       false
 pub:            "Preprint"
 # pub_pre:        "Submitted to "
