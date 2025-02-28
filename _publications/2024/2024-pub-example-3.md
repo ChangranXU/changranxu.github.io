@@ -18,5 +18,5 @@ authors:
   - Ho-Pui Ho
   - Mingkun Xu
 links:
-  Paper: https://arxiv.org/pdf/2407.21080
+  Paper: https://doi.org/10.48550/arXiv.2407.21080
 ---
