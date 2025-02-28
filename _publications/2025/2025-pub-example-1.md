@@ -16,5 +16,5 @@ authors:
   - Zeju Li
   - Qiang Xu
 links:
-  Paper: https://openreview.net/pdf?id=2hcfoCHKoB
+  Paper: https://doi.org/10.48550/arXiv.2502.15832
 ---
