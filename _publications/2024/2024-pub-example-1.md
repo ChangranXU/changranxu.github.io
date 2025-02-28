@@ -19,5 +19,6 @@ authors:
   - Tsung-Yi Ho
   - Qiang Xu
 links:
-  Paper: https://arxiv.org/pdf/2403.05125v2
+  Paper: https://doi.org/10.48550/arXiv.2403.05125
+  Code: https://github.com/cure-lab/EvaluateAIGC
 ---
