@@ -1,6 +1,6 @@
 ---
 title:          "<strong>DeepCircuitX: Repository-Level RTL Dataset for Code Understanding, Generation, and Multimodal Analysis.</strong>"
-date:           2025-01-02 00:01:00 +0800
+date:           2025-02-25 00:01:00 +0800
 selected:       false
 pub:            "Preprint"
 # pub_pre:        "Submitted to "
@@ -26,6 +26,6 @@ authors:
   - Qiang Xu.
 
 links:
-  Project: https://zeju.gitbook.io/lcm-team/deepcircuitx/introduction-of-our-dataset
   Paper: https://doi.org/10.48550/arXiv.2502.18297
+  Project: https://zeju.gitbook.io/lcm-team/deepcircuitx/introduction-of-our-dataset
 ---
