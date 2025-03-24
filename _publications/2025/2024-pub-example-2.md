@@ -2,7 +2,7 @@
 title:          "<strong>Accurate nucleic acids quantification in dPCR using zero-shot Segment Anything Model</strong>"
 date:           2025-01-27 00:01:00 +0800
 selected:       false
-pub:            "SPIE Photonics West"
+pub:            "Computational Optical Imaging and Artificial Intelligence in Biomedical Sciences II"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">SPIE</span>'
@@ -21,5 +21,5 @@ authors:
   - Ho-Pui Ho
   - Wu Yuan
 links:
-  Abstract: https://spie.org/photonics-west/presentation/Accurate-nucleic-acids-quantification-in-dPCR-using-zero-shot-Segment/13333-53
+  Paper: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13333/1333309/Accurate-nucleic-acids-quantification-in-dPCR-using-zero-shot-segment/10.1117/12.3035762.short
 ---
