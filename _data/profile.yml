@@ -65,10 +65,10 @@ experience:
   date: 2022.05 - 2022.08
 
 awards:
-- name: Honorable Mention Award of <a href="https://changranxu.github.io/assets/awards/LLM4HW-Contest-certificates-lcm-verilog.pdf">LLM4HWDesign @ ICCAD 2024</a>
+- name: <a href="https://changranxu.github.io/assets/awards/LLM4HW-Contest-certificates-lcm-verilog.pdf">Honorable Mention Award of LLM4HWDesign @ ICCAD 2024</a>
   logo: assets/images/badges/honor.png
   date: 2024
-- name: <a href="https://changranxu.github.io/assets/awards/DeansListCertification.pdf">Dean's List of Faculty of Engineering</a>, CUHK
+- name: Dean's List of Faculty of Engineering, CUHK
   logo: assets/images/badges/honor.png
   date: 2024
 
