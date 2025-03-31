@@ -21,5 +21,5 @@ authors:
   - Ho-Pui Ho
   - Wu Yuan
 links:
-  Paper: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13333/1333309/Accurate-nucleic-acids-quantification-in-dPCR-using-zero-shot-segment/10.1117/12.3035762.short
+  Paper: http://dx.doi.org/10.1117/12.3035762
 ---
