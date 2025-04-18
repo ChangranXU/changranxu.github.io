@@ -28,12 +28,13 @@ import json
 from datetime import datetime
 import os
 
-# 启用 Headless 模式 + 免费代理（传入 repeat 避免报错）
 pg = ProxyGenerator()
-if pg.FreeProxies(repeat=1):  # 👈 修复点
+success = pg.FreeProxies()
+if success:
     scholarly.use_proxy(pg)
+    # Proceed with your scholarly operations
 else:
-    print("⚠️ Failed to set proxy. scholarly may not work in headless mode.")
+    print("Failed to set up FreeProxies.")
 
 # 获取作者信息
 try:
