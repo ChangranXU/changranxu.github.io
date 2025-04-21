@@ -43,7 +43,7 @@ def _timeout_handler(signum, frame):
     raise TimeoutException("Operation exceeded 120 seconds")
 
 signal.signal(signal.SIGALRM, _timeout_handler)   # 绑定处理器
-signal.alarm(30)                                 # **两分钟硬超时**（秒）
+signal.alarm(120)                                 # **两分钟硬超时**（秒）
 
 # ---------- 2. 主要逻辑 ----------
 try:
