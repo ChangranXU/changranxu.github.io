@@ -22,43 +22,54 @@
 # with open(f'../assets/results/gs_data_shieldsio.json', 'w') as outfile:
 #     json.dump(shieldio_data, outfile, ensure_ascii=False)
 
-from scholarly import scholarly
-import json
-import os
+#!/usr/bin/env python3
+"""
+Add a 2‑minute hard timeout around the whole Google‑Scholar scraping job.
+"""
+
+import signal
 from datetime import datetime
-from concurrent.futures import ThreadPoolExecutor, TimeoutError
+import os
+import json
+import jsonpickle
+from scholarly import scholarly
 
-def fill_author_with_timeout(author, timeout=120):
-    with ThreadPoolExecutor(max_workers=1) as executor:
-        future = executor.submit(scholarly.fill, author, sections=['basics', 'indices', 'counts', 'publications'])
-        return future.result(timeout=timeout)
+# ---------- 1. 设定超时处理 ----------
+class TimeoutException(Exception):
+    """Raised when the execution exceeds the given time limit."""
+    pass
 
-# 获取作者基本信息
-author = scholarly.search_author_id("4_KIgHkAAAAJ")
+def _timeout_handler(signum, frame):
+    raise TimeoutException("Operation exceeded 120 seconds")
 
+signal.signal(signal.SIGALRM, _timeout_handler)   # 绑定处理器
+signal.alarm(30)                                 # **两分钟硬超时**（秒）
+
+# ---------- 2. 主要逻辑 ----------
 try:
-    author = fill_author_with_timeout(author, timeout=120)
-except TimeoutError:
-    print("Timeout: scholarly.fill took too long.")
-    exit(1)
+    author: dict = scholarly.search_author_id("4_KIgHkAAAAJ")
+    scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
 
-name = author['name']
-author['updated'] = str(datetime.now())
-author['publications'] = {v['author_pub_id']: v for v in author['publications']}
+    author['updated'] = str(datetime.now())
+    author['publications'] = {v['author_pub_id']: v for v in author['publications']}
 
-# 输出 JSON
-print(json.dumps(author, indent=2))
+    print(json.dumps(author, indent=2, ensure_ascii=False))
 
-# 保存 JSON 文件
-os.makedirs('../assets/results', exist_ok=True)
-with open(f'../assets/results/gs_data.json', 'w') as outfile:
-    json.dump(author, outfile, ensure_ascii=False)
+    os.makedirs('../assets/results', exist_ok=True)
+    with open('../assets/results/gs_data.json', 'w') as f:
+        json.dump(author, f, ensure_ascii=False, indent=2)
 
-# 保存 citation badge 数据
-shieldio_data = {
-    "schemaVersion": 1,
-    "label": "citations",
-    "message": f"{author['citedby']}",
-}
-with open(f'../assets/results/gs_data_shieldsio.json', 'w') as outfile:
-    json.dump(shieldio_data, outfile, ensure_ascii=False)
+    shieldio_data = {
+        "schemaVersion": 1,
+        "label": "citations",
+        "message": f"{author['citedby']}",
+    }
+    with open('../assets/results/gs_data_shieldsio.json', 'w') as f:
+        json.dump(shieldio_data, f, ensure_ascii=False, indent=2)
+
+except TimeoutException as e:
+    print(f"[ERROR] {e} — exiting early.")
+except Exception as e:
+    print(f"[ERROR] Unexpected exception: {e}")
+finally:
+    signal.alarm(0)   # 取消定时器，防止影响后续代码
