@@ -21,4 +21,3 @@ shieldio_data = {
 }
 with open(f'../assets/results/gs_data_shieldsio.json', 'w') as outfile:
     json.dump(shieldio_data, outfile, ensure_ascii=False)
-
