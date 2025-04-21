@@ -6,8 +6,8 @@ body_attr: >-
   data-spy="scroll" data-target="#navbar-year" data-offset="100"
 ---
 
-<blockquote>
-  &nbsp;&nbsp;Stand on the shoulders of giants.
+<blockquote style="text-align: center;">
+  &nbsp;Stand on the shoulders of giants.&nbsp;
 </blockquote>
 
 {% assign pubs_by_year = site.publications | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
