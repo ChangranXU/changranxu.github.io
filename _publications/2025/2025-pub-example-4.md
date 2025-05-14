@@ -2,10 +2,10 @@
 title:          "<strong>DeepCircuitX: Repository-Level RTL Dataset for Code Understanding, Generation, and Multimodal Analysis.</strong>"
 date:           2025-02-25 00:01:00 +0800
 selected:       false
-pub:            "IEEE International Conference on LLM-Aided Design (ICLAD)"
+pub:            "IEEE International Conference on LLM-Aided Design (LAD)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
-pub_last:       '<span class="badge badge-pill badge-custom badge-dark">ICLAD</span>'
+pub_last:       '<span class="badge badge-pill badge-custom badge-dark">LAD</span>'
 pub_date:       "2025"
 
   
