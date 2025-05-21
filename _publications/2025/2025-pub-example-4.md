@@ -5,7 +5,7 @@ selected:       false
 pub:            "IEEE International Conference on LLM-Aided Design (ICLAD)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
-pub_last:       '<span class="badge badge-pill badge-custom badge-dark">LAD</span>'
+pub_last:       '<span class="badge badge-pill badge-custom badge-dark">ICLAD</span>'
 pub_date:       "2025"
 
   
