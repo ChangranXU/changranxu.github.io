@@ -6,9 +6,11 @@ body_attr: >-
   data-spy="scroll" data-target="#navbar-year" data-offset="100"
 ---
 
-<blockquote style="text-align: center;">
+<blockquote>
   &nbsp;Ideas are easy. Execution is everything.&nbsp;
 </blockquote>
+
+<!--  style="text-align: center;" -->
 
 {% assign pubs_by_year = site.publications | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
 
