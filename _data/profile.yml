@@ -1,0 +1,104 @@
+primary_name: "<h1>Changran Xu</h1>"
+secondary_name: ""
+navbar_name: "<img src='assets/images/etc/apple-icon.png' style='vertical-align: middle; width: 30px; height: auto;'/> Changran Xu's Homepage"
+
+positions:
+  - '<span class="no-break"><img src="assets/images/badges/cuhk_logo.png" alt="The Chinese University of Hong Kong" class="inline-badge"/></span> Student, The Chinese University of Hong Kong'
+
+email: "crxu@link.cuhk.edu.hk"
+gscholar: 4_KIgHkAAAAJ
+# sscholar: 
+github: ChangranXU
+# twitter: 
+# wechat_qrcode: assets/images/etc/wechat.jpg
+# wechat_prompt: >-
+#   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
+# zhihu: 
+# resume: assets/cv/Resume.pdf
+linkedin:
+# orcid: 0000-0000-0000-0000
+
+short_bio: >-
+  I am Changran Xu, I earned a Bachelor of Science degree with First Class Honours from The Chinese University of Hong Kong in August 2024. And now, I am engaged in various exciting projects related to <strong>LLM, GNN, and Machine Learning</strong>.  <br>
+  I welcome all opportunities for discussion, learning, and collaboration. <strong><span style="color:red">If you are interested in my work or believe there may be potential for collaboration, don’t hesitate to reach out! I am actively seeking opportunities for collaboration!</span></strong>
+
+show_portrait: true
+portrait_url: assets/images/photos/ChangranXU.JPG
+portrait_caption: >-
+  Welcome~
+
+education:
+- name: The Chinese University of Hong Kong
+  logo: assets/images/badges/cuhk_logo.png
+  position: BSc Computer Science, First Class Honours
+  date: 2020.09 - 2024.08
+- name: Johns Hopkins University
+  logo: assets/images/badges/jhu_logo.png
+  position: Visiting Student
+  date: 2024.06 - 2024.08
+- name: Peking University
+  logo: assets/images/badges/pku_logo.png
+  position: Summer School
+  date: 2021.06 - 2021.07 & 2022.06 - 2022.07
+# - name: Ningbo Yinzhou High School
+#   logo: assets/images/badges/yinzhou_logo.png
+#   position: High School Diploma, Elite Stream Class
+#   date: 2017.09 - 2020.08
+
+  
+# experience:
+# - name: National Center of Technology Innovation for EDA, Nanjing
+#   logo: assets/images/badges/gongsi.png
+#   position: Algorithm Engineer
+#   date: 2024.05 - Present
+# - name: Flourish Entertainment Agent Company, Hong Kong
+#   logo: assets/images/badges/gongsi.png
+#   position: Web Developer Assistant
+#   date: 2023.07 - 2023.08
+# - name: Legal Expression, Hong Kong
+#   logo: assets/images/badges/gongsi.png
+#   position: Full-Stack Developer (Entrepreneurship)
+#   date: 2023.05 - 2023.08
+# - name: Hongtai Water Resources Information Technology Co, Ltd, Ningbo
+#   logo: assets/images/badges/gongsi.png
+#   position: Front-End Engineer Trainee
+#   date: 2022.05 - 2022.08
+
+awards:
+- name: <a href="https://changranxu.github.io/assets/awards/LLM4HW-Contest-certificates-lcm-verilog.pdf">Honorable Mention Award of LLM4HWDesign @ ICCAD 2024</a>
+  logo: assets/images/badges/honor.png
+  date: 2024
+- name: <a href="https://www.erg.cuhk.edu.hk/erg/sites/default/files/CU%20Engineering%20Awards%20Presentation%20Booklet_content_online.pdf">Dean's List of Faculty of Engineering, CUHK</a>
+  logo: assets/images/badges/honor.png
+  date: 2024
+
+research:
+- name: Large Circuit Model
+  logo: assets/images/badges/research.png
+  position: Research Assistant, supervised by <a href="https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl">Professor XU Qiang</a>
+  date: 2024.05 - Present
+- name: Medical Imaging Analysis
+  logo: assets/images/badges/research.png
+  position: Research Intern, supervised by <a href="https://scholar.google.com/citations?user=FJ-huxgAAAAJ&hl">Professor Alan Yuille</a> and <a href="https://scholar.google.com/citations?user=JVOeczAAAAAJ&hl">Dr. Zhou Zongwei</a>
+  date: 2024.06 - 2024.08
+# - name: Application of Computer Vision in Biomedical Engineering
+#   logo: assets/images/badges/research.png
+#   position: Research Assistant, supervised by <a href="https://scholar.google.com/citations?user=K3Xmwr8AAAAJ&hl">Dr. Wei Yuanyuan</a>
+#   date: 2023.12 - 2024.09
+# - name: Bootstrapping AI-Generated Content and Medical Imaging Analysis
+#   logo: assets/images/badges/research.png
+#   position: Research Assistant, supervised by <a href="https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl">Professor XU Qiang</a>
+#   date: 2023.09 - 2024.05
+- name: SmartNIC Performance Profiling and Prediction
+  logo: assets/images/badges/research.png
+  position: Research Assistant, supervised by <a href="https://scholar.google.com/citations?user=BZHzIFIAAAAJ&hl">Professor XU Hong</a>
+  date: 2023.06 - 2023.08
+
+# service:
+# - name: Reviewer of <a href="https://www.embs.org/jbhi/">Journal of Biomedical and Health Informatics (JBHI)</a>
+# - name: Reviewer of <a href="https://2025.ieeeicme.org/">ICME 2025</a>
+
+# Feel free to replace the footer text if you would like to, but I will greatly appreciate it 
+# if you keep the link to the template so that more people can benefit from it. Thanks!
+footer_text: >-
+  Copyright © 2025

@@ -1,0 +1,117 @@
+<div class="row mt-3">
+    <div class="col">
+        <div class="card border-0 shadow-sm bg-white">
+            <div class="card-body p-4">
+
+                <div class="row">
+                    {% if site.data.profile.education %}
+                    <div class="col-12">
+                        <div class="mx-2 my-1">
+                            <h4>Education</h4>
+                            <ul class="list-unstyled mb-1">
+                                {% for item in site.data.profile.education %}
+                                <li class="media mb-1">
+                                    <img src="{{ item.logo }}" alt="{{ item.name }}" style="width: 18px;" class="mr-1 mt-1">
+                                    <div class="media-body">
+                                        <p class="my-0">{{ item.name }}</p>
+                                        <p class="small my-0">{{ item.dept }}</p>
+                                        <p class="small my-0">{{ item.position }} <em class="float-right">{{ item.date }}</em></p>
+                                    </div>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                    {% endif %}
+
+                    {% if site.data.profile.experience %}
+                    <div class="my-3"></div>
+                    <div class="my-3"></div>
+                    <hr style="border: 0; border-top: 1px solid #dfe2e6; width: 100%; margin: 20px 0;">
+                    <div class="col-12">
+                        <div class="mx-2 my-1">
+                            <h4>Experience</h4>
+                            <ul class="list-unstyled mb-1">
+                                {% for item in site.data.profile.experience %}
+                                <li class="media mb-1">
+                                    <img src="{{ item.logo }}" alt="{{ item.name }}" style="width: 18px;" class="mr-1 mt-1">
+                                    <div class="media-body">
+                                        <p class="my-0">{{ item.name }}</p>
+                                        <p class="small my-0">{{ item.dept }}</p>
+                                        <p class="small my-0">{{ item.position }} <em class="float-right">{{ item.date }}</em></p>
+                                    </div>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                    {% endif %}
+
+                    {% if site.data.profile.research %}
+                    <div class="my-3"></div>
+                    <div class="my-3"></div>
+                    <hr style="border: 0; border-top: 1px solid #dfe2e6; width: 100%; margin: 20px 0;">
+                    <div class="col-12">
+                        <div class="mx-2 my-1">
+                            <h4>Research</h4>
+                            <ul class="list-unstyled mb-1">
+                                {% for item in site.data.profile.research %}
+                                <li class="media mb-1">
+                                    <img src="{{ item.logo }}" alt="{{ item.name }}" style="width: 18px;" class="mr-1 mt-1">
+                                    <div class="media-body">
+                                        <p class="my-0">{{ item.name }}</p>
+                                        <p class="small my-0">{{ item.dept }}</p>
+                                        <p class="small my-0">{{ item.position }} <em class="float-right">{{ item.date }}</em></p>
+                                    </div>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                    {% endif %}
+
+
+                    {% if site.data.profile.awards %}
+                    <div class="my-3"></div>
+                    <div class="my-3"></div>
+                    <hr style="border: 0; border-top: 1px solid #dfe2e6; width: 100%; margin: 20px 0;">
+                    <div class="col-12">
+                        <div class="mx-2 my-1">
+                            <h4>Honors & Awards</h4>
+                            <ul class="list-unstyled mb-1">
+                                {% for item in site.data.profile.awards %}
+                                <li class="media mb-1">
+                                    <img src="{{ item.logo }}" alt="logo" style="width: 18px;" class="mr-1 mt-1">
+                                    <div class="media-body">
+                                        <p class="my-0">{{ item.name }} <em class="float-right small my-0">{{ item.date }}</em></p>
+                                    </div>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                    {% endif %}
+
+
+                    {% if site.data.profile.service %}
+                    <div class="my-3"></div>
+                    <div class="my-3"></div>
+                    <hr style="border: 0; border-top: 1px solid #dfe2e6; width: 100%; margin: 20px 0;">
+                    <div class="col-12">
+                        <div class="mx-2 my-1">
+                            <h4>Service</h4>
+                            <ul class="list small pl-3 mb-1">
+                                {% for item in site.data.profile.service %}
+                                <li>{{ item.name }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                    {% endif %}
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
