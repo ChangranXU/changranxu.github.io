@@ -14,7 +14,7 @@ authors:
   - Hongji Zhang
   - Yunhao Zhou
   - Zhengyuan Shi
-  - Changran XU
+  - Changran Xu
   - Qiang Xu
 
 
