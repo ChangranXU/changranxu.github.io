@@ -50,23 +50,23 @@ education:
 #   date: 2017.09 - 2020.08
 
   
-# experience:
-# - name: National Center of Technology Innovation for EDA, Nanjing
-#   logo: assets/images/badges/gongsi.png
-#   position: Algorithm Engineer
-#   date: 2024.05 - Present
-# - name: Flourish Entertainment Agent Company, Hong Kong
-#   logo: assets/images/badges/gongsi.png
-#   position: Web Developer Assistant
-#   date: 2023.07 - 2023.08
-# - name: Legal Expression, Hong Kong
-#   logo: assets/images/badges/gongsi.png
-#   position: Full-Stack Developer (Entrepreneurship)
-#   date: 2023.05 - 2023.08
-# - name: Hongtai Water Resources Information Technology Co, Ltd, Ningbo
-#   logo: assets/images/badges/gongsi.png
-#   position: Front-End Engineer Trainee
-#   date: 2022.05 - 2022.08
+experience:
+- name: National Center of Technology Innovation for EDA, Nanjing
+  logo: assets/images/badges/gongsi.png
+  position: Algorithm Engineer
+  date: 2024.05 - 2025.08
+- name: Flourish Entertainment Agent Company, Hong Kong
+  logo: assets/images/badges/gongsi.png
+  position: Web Developer Assistant
+  date: 2023.07 - 2023.08
+- name: Legal Expression, Hong Kong
+  logo: assets/images/badges/gongsi.png
+  position: Full-Stack Developer (Entrepreneurship)
+  date: 2023.05 - 2023.08
+- name: Hongtai Water Resources Information Technology Co, Ltd, Ningbo
+  logo: assets/images/badges/gongsi.png
+  position: Front-End Engineer Trainee
+  date: 2022.05 - 2022.08
 
 awards:
 - name: <a href="https://changranxu.github.io/assets/awards/LLM4HW-Contest-certificates-lcm-verilog.pdf">Honorable Mention Award of LLM4HWDesign @ ICCAD 2024</a>
