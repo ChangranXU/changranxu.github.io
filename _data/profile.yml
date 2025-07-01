@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "<img src='assets/images/etc/apple-icon.png' style='vertical-align: middle; width: 30px; height: auto;'/> Changran Xu's Homepage"
 
 positions:
-  - '<span class="no-break"><img src="assets/images/badges/cuhk_logo.png" alt="The Chinese University of Hong Kong" class="inline-badge"/></span> Student, The Chinese University of Hong Kong'
+  - '<span class="no-break"><img src="assets/images/badges/cuhk_logo.png" alt="The Chinese University of Hong Kong" class="inline-badge"/></span> PhD Student, The Chinese University of Hong Kong'
 
 email: "crxu@link.cuhk.edu.hk"
 gscholar: 4_KIgHkAAAAJ
@@ -19,7 +19,7 @@ linkedin:
 # orcid: 0000-0000-0000-0000
 
 short_bio: >-
-  I am Changran Xu, I earned a Bachelor of Science degree with First Class Honours from The Chinese University of Hong Kong in August 2024. And now, I am engaged in various exciting projects related to <strong>LLM, GNN, and Machine Learning</strong>.  <br>
+  I am Changran Xu, I earned a Bachelor of Science degree with First Class Honours from The Chinese University of Hong Kong in August 2024. Currently a PhD student at CUHK, I am engaged in various exciting projects related to <strong>LLM, GNN, and Machine Learning</strong>.  <br>
   I welcome all opportunities for discussion, learning, and collaboration. <strong><span style="color:red">If you are interested in my work or believe there may be potential for collaboration, don’t hesitate to reach out! I am actively seeking opportunities for collaboration!</span></strong>
 
 show_portrait: true
@@ -28,6 +28,10 @@ portrait_caption: >-
   Welcome~
 
 education:
+- name: The Chinese University of Hong Kong
+  logo: assets/images/badges/cuhk_logo.png
+  position: PhD in Computer Science
+  date: 2025.08 - 202?.??
 - name: The Chinese University of Hong Kong
   logo: assets/images/badges/cuhk_logo.png
   position: BSc Computer Science, First Class Honours
