@@ -79,11 +79,11 @@ awards:
 research:
 - name: Large Circuit Model
   logo: assets/images/badges/research.png
-  position: Research Assistant, supervised by <a href="https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl">Professor XU Qiang</a>
+  position: Research Assistant, supervised by <a href="https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl">Prof. XU Qiang</a>
   date: 2024.05 - Present
 - name: Medical Imaging Analysis
   logo: assets/images/badges/research.png
-  position: Research Intern, supervised by <a href="https://scholar.google.com/citations?user=FJ-huxgAAAAJ&hl">Professor Alan Yuille</a> and <a href="https://scholar.google.com/citations?user=JVOeczAAAAAJ&hl">Dr. Zhou Zongwei</a>
+  position: Research Intern, supervised by <a href="https://scholar.google.com/citations?user=FJ-huxgAAAAJ&hl">Prof. Alan Yuille</a> and <a href="https://scholar.google.com/citations?user=JVOeczAAAAAJ&hl">Dr. Zhou Zongwei</a>
   date: 2024.06 - 2024.08
 # - name: Application of Computer Vision in Biomedical Engineering
 #   logo: assets/images/badges/research.png
@@ -91,11 +91,11 @@ research:
 #   date: 2023.12 - 2024.09
 # - name: Bootstrapping AI-Generated Content and Medical Imaging Analysis
 #   logo: assets/images/badges/research.png
-#   position: Research Assistant, supervised by <a href="https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl">Professor XU Qiang</a>
+#   position: Research Assistant, supervised by <a href="https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl">Prof. XU Qiang</a>
 #   date: 2023.09 - 2024.05
 - name: SmartNIC Performance Profiling and Prediction
   logo: assets/images/badges/research.png
-  position: Research Assistant, supervised by <a href="https://scholar.google.com/citations?user=BZHzIFIAAAAJ&hl">Professor XU Hong</a>
+  position: Research Assistant, supervised by <a href="https://scholar.google.com/citations?user=BZHzIFIAAAAJ&hl">Prof. XU Hong</a>
   date: 2023.06 - 2023.08
 
 # service:
