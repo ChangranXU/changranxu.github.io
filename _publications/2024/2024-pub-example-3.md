@@ -3,6 +3,7 @@ title:          "<strong>Artificial Intelligence Enhanced Digital Nucleic Acid A
 date:           2024-07-30 00:01:00 +0800
 selected:       false
 pub:            "arXiv"
+tag:            "s1"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Preprint</span>'

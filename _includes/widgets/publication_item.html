@@ -1,5 +1,5 @@
 {% assign item = include.item %}
-<div class="d-none d-md-block">
+<div class="d-none d-md-block publication-item" {% if item.tag %}data-tag="{{ item.tag }}"{% endif %}>
     <div class="row no-gutters border-bottom border-gray px-3">
         {% if item.cover %}
         <div class="col-md-3 col-xl-2 mb-md-0 p-md-3">
@@ -24,7 +24,7 @@
     </div>
 </div>
 
-<div class="d-md-none">
+<div class="d-md-none publication-item" {% if item.tag %}data-tag="{{ item.tag }}"{% endif %}>
     <div class="row no-gutters border-bottom border-gray px-3">
         {% if item.cover %}
         <div class="col-3 mb-3 p-3">
@@ -49,3 +49,83 @@
         </div>
     </div>
 </div>
+
+<script>
+    function drawConnectingLines() {
+        var existingSvg = document.getElementById('connection-svg');
+        if (existingSvg) {
+            existingSvg.parentNode.removeChild(existingSvg);
+        }
+
+        var taggedItems = document.querySelectorAll('.publication-item[data-tag]');
+        var tags = {};
+        taggedItems.forEach(function(item) {
+            if (window.getComputedStyle(item).display === 'none') {
+                return;
+            }
+            var tag = item.dataset.tag;
+            if (!tags[tag]) {
+                tags[tag] = [];
+            }
+            tags[tag].push(item);
+        });
+
+        if (Object.keys(tags).length === 0) {
+            return;
+        }
+
+        var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+        svg.id = 'connection-svg';
+        svg.style.position = 'absolute';
+        svg.style.top = '0';
+        svg.style.left = '0';
+        svg.style.width = '100%';
+        svg.style.height = document.body.scrollHeight + 'px';
+        svg.style.pointerEvents = 'none';
+        svg.style.zIndex = '-1';
+
+        var defs = document.createElementNS('http://www.w3.org/2000/svg', 'defs');
+        defs.innerHTML = '<marker id="circle-marker" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><circle cx="4" cy="4" r="3" style="fill: #888;"/></marker>';
+        svg.appendChild(defs);
+
+        for (var tagName in tags) {
+            var items = tags[tagName];
+            if (items.length > 1) {
+                items.sort(function(a, b) {
+                    return a.getBoundingClientRect().top - b.getBoundingClientRect().top;
+                });
+
+                for (var i = 0; i < items.length - 1; i++) {
+                    var item1 = items[i];
+                    var item2 = items[i+1];
+
+                    var rect1 = item1.getBoundingClientRect();
+                    var rect2 = item2.getBoundingClientRect();
+
+                    var line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                    
+                    var x = rect1.left + 15;
+                    var y1 = rect1.top + window.scrollY + (rect1.height / 2);
+                    var y2 = rect2.top + window.scrollY + (rect2.height / 2);
+
+                    line.setAttribute('x1', x);
+                    line.setAttribute('y1', y1);
+                    line.setAttribute('x2', x);
+                    line.setAttribute('y2', y2);
+                    line.setAttribute('stroke', '#888');
+                    line.setAttribute('stroke-width', '1.5');
+                    line.setAttribute('marker-start', 'url(#circle-marker)');
+                    line.setAttribute('marker-end', 'url(#circle-marker)');
+                    svg.appendChild(line);
+                }
+            }
+        }
+        document.body.appendChild(svg);
+    }
+
+    if (!window.connectionListenersAdded) {
+        document.addEventListener('DOMContentLoaded', drawConnectingLines);
+        window.addEventListener('resize', drawConnectingLines);
+        window.connectionListenersAdded = true;
+    }
+</script>

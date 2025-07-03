@@ -3,6 +3,7 @@ title:          "<strong>From Droplets to Diagnosis: AI-Driven Imaging and Syste
 date:           2025-06-30 00:01:00 +0800
 selected:       false
 pub:            "Biosensors and Bioelectronics"
+tag:            "s1"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_last:       ' <span class="badge badge-pill badge-custom badge-warning">Q1</span>'
