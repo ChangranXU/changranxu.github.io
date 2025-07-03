@@ -5,7 +5,7 @@ selected:       false
 pub:            "Advanced Science"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
-pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">Advanced Science</span>'
+pub_last:       ' <span class="badge badge-pill badge-custom badge-warning">Q1</span>'
 pub_date:       "2024"
 
   
