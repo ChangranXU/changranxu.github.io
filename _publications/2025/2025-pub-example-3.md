@@ -18,5 +18,6 @@ authors:
   - Qiang Xu
 
 links:
+  Paper: https://doi.org/10.48550/arXiv.2503.14153
 
 ---
