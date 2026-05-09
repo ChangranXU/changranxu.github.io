@@ -1,14 +1,8 @@
-<nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top mb-5 shadow-sm">
+<nav class="navbar navbar-expand-sm navbar-light fixed-top site-navbar">
     <div class="container">
-        <a class="navbar-brand">
-            <img src='assets/images/etc/apple-icon.png' style='vertical-align: middle; width: 30px; height: auto;'/>&nbsp;
-            <strong>
-                {% if page.navbar_name == "Home" %}
-                    Changran Xu's Homepage
-                {% else %}
-                    {{ page.navbar_name }}
-                {% endif %}
-            </strong>
+        <a class="navbar-brand" href="./">
+            <img src="assets/images/etc/apple-icon.png" alt="">
+            <strong>Changran Xu</strong>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

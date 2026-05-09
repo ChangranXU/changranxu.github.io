@@ -19,8 +19,7 @@ linkedin:
 # orcid: 0000-0000-0000-0000
 
 short_bio: >-
-  I am Changran Xu, I earned a Bachelor of Science degree with First Class Honours from The Chinese University of Hong Kong in August 2024. Currently a PhD student at CUHK, I am engaged in various exciting projects related to <strong>LLM, GNN, and Machine Learning</strong>.  <br>
-  I welcome all opportunities for discussion, learning, and collaboration. <strong><span style="color:red">If you are interested in my work or believe there may be potential for collaboration, don’t hesitate to reach out! I am actively seeking opportunities for collaboration!</span></strong>
+  I am a PhD student in Computer Science at The Chinese University of Hong Kong. My research interests include <strong>LLMs, graph neural networks, machine learning, and circuit intelligence</strong>. I earned a BSc with First Class Honours from CUHK in 2024 and welcome research discussions and collaboration.
 
 show_portrait: true
 portrait_url: assets/images/photos/ChangranXU.JPG
@@ -80,7 +79,7 @@ research:
 - name: Large Circuit Model
   logo: assets/images/badges/research.png
   position: Research Assistant, supervised by <a href="https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl">Prof. XU Qiang</a>
-  date: 2024.05 - Present
+  date: 2024.05 - 2025.08
 - name: Medical Imaging Analysis
   logo: assets/images/badges/research.png
   position: Research Intern, supervised by <a href="https://scholar.google.com/citations?user=FJ-huxgAAAAJ&hl">Prof. Alan Yuille</a> and <a href="https://scholar.google.com/citations?user=JVOeczAAAAAJ&hl">Dr. Zhou Zongwei</a>
@@ -105,4 +104,4 @@ research:
 # Feel free to replace the footer text if you would like to, but I will greatly appreciate it 
 # if you keep the link to the template so that more people can benefit from it. Thanks!
 footer_text: >-
-  Copyright © 2025
+  Copyright © 2026

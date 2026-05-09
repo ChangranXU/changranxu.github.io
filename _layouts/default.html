@@ -16,44 +16,13 @@
     <link rel="stylesheet" href="assets/css/global.css">
     <!-- ICON -->
     <link rel="shortcut icon" href="assets/images/etc/favicon.ico" />
-    <!-- Quote CSS-->
-    <style>
-        blockquote {
-            font-style: italic;
-            color: #555;
-            border-left: 10px solid #3498db;
-            background: #ecf5fc;
-            padding: 15px 20px;
-            margin: 20px 0;
-            max-width: 920px;
-            width: 100%;
-            position: relative;
-            quotes: "“" "”" "‘" "’";
-        }
-        blockquote:before {
-            color: #3498db;
-            content: open-quote;
-            font-size: 2em;
-            position: absolute;
-            left: 10px;
-            top: 10px;
-        }
-        blockquote:after {
-            color: #3498db;
-            content: close-quote;
-            font-size: 2em;
-            position: absolute;
-            right: 10px;
-            bottom: 10px;
-        }
-    </style>
 </head>
 
-<body class="bg-light" {{ page.body_attr }}>
+<body class="site-body" {{ page.body_attr }}>
     {% include navbar.html %}
-    <div class="container">
+    <main class="container site-container">
         {{content}}
-    </div>
+    </main>
     {% include footer.html %}
 
     <!-- Scripts -->
