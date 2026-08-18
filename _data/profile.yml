@@ -35,14 +35,14 @@ education:
   logo: assets/images/badges/cuhk_logo.png
   position: BSc Computer Science, First Class Honours
   date: 2020.09 - 2024.08
-- name: Johns Hopkins University
-  logo: assets/images/badges/jhu_logo.png
-  position: Visiting Student
-  date: 2024.06 - 2024.08
-- name: Peking University
-  logo: assets/images/badges/pku_logo.png
-  position: Summer School
-  date: 2021.06 - 2021.07 & 2022.06 - 2022.07
+# - name: Johns Hopkins University
+#   logo: assets/images/badges/jhu_logo.png
+#   position: Visiting Student
+#   date: 2024.06 - 2024.08
+# - name: Peking University
+#   logo: assets/images/badges/pku_logo.png
+#   position: Summer School
+#   date: 2021.06 - 2021.07 & 2022.06 - 2022.07
 # - name: Ningbo Yinzhou High School
 #   logo: assets/images/badges/yinzhou_logo.png
 #   position: High School Diploma, Elite Stream Class
