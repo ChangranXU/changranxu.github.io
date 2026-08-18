@@ -26,6 +26,5 @@ authors:
 links:
   Paper: https://doi.org/10.48550/arXiv.2604.18652
   Project: https://arbiteros.ai/
-  Earlier version: https://doi.org/10.48550/arXiv.2510.13857
   Code: https://github.com/cure-lab/ArbiterOS
 ---
