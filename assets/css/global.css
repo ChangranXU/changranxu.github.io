@@ -361,6 +361,12 @@ a:hover {
     color: var(--site-accent-dark);
 }
 
+.publication-links a.publication-cites {
+    border-color: rgba(15, 118, 110, 0.35);
+    background: var(--site-surface-soft);
+    color: var(--site-accent-dark);
+}
+
 .page-quote {
     max-width: 560px;
     margin: 0 0 1.5rem;

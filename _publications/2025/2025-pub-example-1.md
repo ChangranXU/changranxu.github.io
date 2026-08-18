@@ -7,6 +7,7 @@ pub:            "International Conference on Learning Representations (ICLR)"
 # pub_post:       'Under review.'
 pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">ICLR</span><span class="badge badge-pill badge-custom badge-warning">Spotlight</span>'
 pub_date:       "2025"
+scholar_pub_id: "4_KIgHkAAAAJ:UeHWp8X0CEIC"
 
   
 authors:

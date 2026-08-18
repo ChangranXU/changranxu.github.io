@@ -7,6 +7,7 @@ pub:            "ACM/IEEE Design Automation Conference (DAC)"
 # pub_post:       'Under review.'
 pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">DAC</span>'
 pub_date:       "2025"
+scholar_pub_id: "4_KIgHkAAAAJ:zYLM7Y9cAGgC"
 
   
 authors:

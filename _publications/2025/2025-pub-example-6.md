@@ -8,6 +8,7 @@ tag:            "s1"
 # pub_post:       'Under review.'
 pub_last:       ' <span class="badge badge-pill badge-custom badge-warning">Q1</span>'
 pub_date:       "2025"
+scholar_pub_id: "4_KIgHkAAAAJ:W7OEmFMy1HYC"
 
   
 authors:

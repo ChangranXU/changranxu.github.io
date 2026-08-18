@@ -7,6 +7,7 @@ pub:            "IEEE International Conference on LLM-Aided Design (ICLAD)"
 # pub_post:       'Under review.'
 pub_last:       '<span class="badge badge-pill badge-custom badge-dark">ICLAD</span>'
 pub_date:       "2025"
+scholar_pub_id: "4_KIgHkAAAAJ:IjCSPb-OGe4C"
 
   
 authors:

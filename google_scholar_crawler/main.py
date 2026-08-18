@@ -136,13 +136,19 @@ def write_outputs(author: dict[str, Any]) -> None:
         + "\n",
         encoding="utf-8",
     )
+    publications = author.get("publications") or []
     slim = {
         "citedby": author["citedby"],
         "hindex": author.get("hindex"),
         "i10index": author.get("i10index"),
         "updated": author["updated"],
         "scholar_id": author["scholar_id"],
-        "publications": author.get("publications") or [],
+        "publications": publications,
+        "by_id": {
+            pub["id"]: pub
+            for pub in publications
+            if pub.get("id")
+        },
     }
     JEKYLL_DATA.write_text(
         json.dumps(slim, ensure_ascii=False, indent=2) + "\n",

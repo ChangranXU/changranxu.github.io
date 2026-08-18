@@ -1,4 +1,5 @@
 import json
+import re
 import unittest
 from pathlib import Path
 
@@ -99,6 +100,27 @@ class CurrentSiteDataTests(unittest.TestCase):
             cites = [p.get("citations") or 0 for p in pubs]
         self.assertEqual(data["citedby"], sum(cites))
         self.assertEqual(data["scholar_id"], "4_KIgHkAAAAJ")
+
+    def test_jekyll_data_has_by_id(self):
+        path = Path(__file__).resolve().parent.parent / "_data" / "google_scholar.json"
+        data = json.loads(path.read_text(encoding="utf-8"))
+        self.assertTrue(data["by_id"])
+        for pub in data["publications"]:
+            self.assertEqual(data["by_id"][pub["id"]]["citations"], pub["citations"])
+
+    def test_front_matter_scholar_ids_exist_in_cache(self):
+        root = Path(__file__).resolve().parent.parent
+        cache = json.loads((root / "_data" / "google_scholar.json").read_text(encoding="utf-8"))
+        known = {pub["id"] for pub in cache["publications"]}
+        id_re = re.compile(r"^scholar_pub_id:\s*[\"']?([A-Za-z0-9_-]+:[A-Za-z0-9_-]+)[\"']?\s*$", re.M)
+        mapped = []
+        for path in (root / "_publications").rglob("*.md"):
+            text = path.read_text(encoding="utf-8")
+            match = id_re.search(text)
+            if match:
+                mapped.append((path.name, match.group(1)))
+                self.assertIn(match.group(1), known, msg=path.name)
+        self.assertGreaterEqual(len(mapped), 7)
 
 
 if __name__ == "__main__":

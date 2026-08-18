@@ -59,5 +59,61 @@
       "year": "2025",
       "citations": 2
     }
-  ]
+  ],
+  "by_id": {
+    "4_KIgHkAAAAJ:W7OEmFMy1HYC": {
+      "id": "4_KIgHkAAAAJ:W7OEmFMy1HYC",
+      "title": "From droplets to diagnosis: AI-driven imaging and system integration in digital nucleic acid amplification testing",
+      "year": "2025",
+      "citations": 36
+    },
+    "4_KIgHkAAAAJ:UeHWp8X0CEIC": {
+      "id": "4_KIgHkAAAAJ:UeHWp8X0CEIC",
+      "title": "DeepRTL: Bridging Verilog Understanding and Generation with a Unified Representation Model",
+      "year": "2025",
+      "citations": 36
+    },
+    "4_KIgHkAAAAJ:IjCSPb-OGe4C": {
+      "id": "4_KIgHkAAAAJ:IjCSPb-OGe4C",
+      "title": "Deepcircuitx: A comprehensive repository-level dataset for rtl code understanding, generation, and ppa analysis",
+      "year": "2025",
+      "citations": 29
+    },
+    "4_KIgHkAAAAJ:u5HHmVD_uO8C": {
+      "id": "4_KIgHkAAAAJ:u5HHmVD_uO8C",
+      "title": "Evaluating text-to-image generative models: An empirical study on human image synthesis",
+      "year": "2024",
+      "citations": 24
+    },
+    "4_KIgHkAAAAJ:qjMakFHDy7sC": {
+      "id": "4_KIgHkAAAAJ:qjMakFHDy7sC",
+      "title": "SAM‐dPCR: Accurate and Generalist Nuclei Acid Quantification Leveraging the Zero‐Shot Segment Anything Model",
+      "year": "2025",
+      "citations": 16
+    },
+    "4_KIgHkAAAAJ:Y0pCki6q_DkC": {
+      "id": "4_KIgHkAAAAJ:Y0pCki6q_DkC",
+      "title": "Deeprtl2: A versatile model for rtl-related tasks",
+      "year": "2025",
+      "citations": 11
+    },
+    "4_KIgHkAAAAJ:WF5omc3nYNoC": {
+      "id": "4_KIgHkAAAAJ:WF5omc3nYNoC",
+      "title": "CktEvo: Repository-Level RTL Code Benchmark for Design Evolution",
+      "year": "2026",
+      "citations": 3
+    },
+    "4_KIgHkAAAAJ:zYLM7Y9cAGgC": {
+      "id": "4_KIgHkAAAAJ:zYLM7Y9cAGgC",
+      "title": "Speculative Decoding for Verilog: Speed and Quality, All in One",
+      "year": "2025",
+      "citations": 3
+    },
+    "4_KIgHkAAAAJ:eQOLeE2rZwMC": {
+      "id": "4_KIgHkAAAAJ:eQOLeE2rZwMC",
+      "title": "From Craft to Constitution: A Governance-First Paradigm for Principled Agent Engineering",
+      "year": "2025",
+      "citations": 2
+    }
+  }
 }

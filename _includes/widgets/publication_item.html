@@ -1,4 +1,12 @@
 {% assign item = include.item %}
+{% assign gs_pub = false %}
+{% if item.scholar_pub_id and site.data.google_scholar.publications %}
+    {% for pub in site.data.google_scholar.publications %}
+        {% if pub.id == item.scholar_pub_id %}
+            {% assign gs_pub = pub %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
 <article class="publication-item {% unless item.cover %}publication-item--no-cover{% endunless %}">
     {% if item.cover %}
     <div>
@@ -11,8 +19,9 @@
         <p class="publication-meta">{% include widgets/author_list.html authors=item.authors %}</p>
         <p class="publication-meta">{{ item.pub_pre }}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }}</p>
 
-        {% if item.links %}
+        {% if item.links or item.scholar_pub_id %}
         <div class="publication-links">
+            {% if item.links %}
             {% for link in item.links %}
             {% if link[1].url %}
             <a target="{{ link[1]['target'] }}" href="{{ link[1]['url'] }}">{{ link[0] }}</a>
@@ -20,6 +29,12 @@
             <a target="_blank" rel="noopener" href="{{ link[1] }}">{{ link[0] }}</a>
             {% endif %}
             {% endfor %}
+            {% endif %}
+            {% if item.scholar_pub_id %}
+            <a class="publication-cites" target="_blank" rel="noopener" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user={{ site.data.profile.gscholar }}&citation_for_view={{ item.scholar_pub_id }}">
+                {% if gs_pub %}Cited by {{ gs_pub.citations }}{% else %}Google Scholar{% endif %}
+            </a>
+            {% endif %}
         </div>
         {% endif %}
     </div>

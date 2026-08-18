@@ -7,6 +7,7 @@ pub:            "Advanced Science"
 # pub_post:       'Under review.'
 pub_last:       ' <span class="badge badge-pill badge-custom badge-warning">Q1</span>'
 pub_date:       "2024"
+scholar_pub_id: "4_KIgHkAAAAJ:qjMakFHDy7sC"
 
   
 authors:

@@ -7,6 +7,7 @@ pub:            "Findings of the Association for Computational Linguistics (ACL)
 # pub_post:       'Under review.'
 pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">ACL</span>'
 pub_date:       "2025"
+scholar_pub_id: "4_KIgHkAAAAJ:Y0pCki6q_DkC"
 
   
 authors:
