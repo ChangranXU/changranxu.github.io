@@ -2,73 +2,174 @@
   "scholar_id": "4_KIgHkAAAAJ",
   "name": "Changran Xu",
   "affiliation": "The Chinese University of Hong Kong",
-  "citedby": 160,
-  "citedby5y": 160,
+  "citedby": 162,
+  "citedby5y": 162,
   "hindex": 6,
   "hindex5y": 6,
   "i10index": 6,
   "i10index5y": 6,
   "cites_per_year": {
     "2024": 7,
-    "2025": 64,
-    "2026": 89
+    "2025": 65,
+    "2026": 90
   },
   "publications": [
-    {
-      "id": "4_KIgHkAAAAJ:W7OEmFMy1HYC",
-      "title": "From droplets to diagnosis: AI-driven imaging and system integration in digital nucleic acid amplification testing",
-      "year": "2025",
-      "citations": 36
-    },
     {
       "id": "4_KIgHkAAAAJ:UeHWp8X0CEIC",
       "title": "DeepRTL: Bridging Verilog Understanding and Generation with a Unified Representation Model",
       "year": "2025",
-      "citations": 36
+      "citations": 37,
+      "authors": [
+        "Y Liu",
+        "XU Changran",
+        "Y Zhou",
+        "Z Li",
+        "Q Xu"
+      ],
+      "venue": "The Thirteenth International Conference on Learning Representations",
+      "arxiv_id": null
+    },
+    {
+      "id": "4_KIgHkAAAAJ:W7OEmFMy1HYC",
+      "title": "From droplets to diagnosis: AI-driven imaging and system integration in digital nucleic acid amplification testing",
+      "year": "2025",
+      "citations": 36,
+      "authors": [
+        "Y Wei",
+        "X Liu",
+        "Y Mu",
+        "C Xu",
+        "G Zhang",
+        "T Li",
+        "Z Li",
+        "W Yuan",
+        "HP Ho",
+        "M Xu"
+      ],
+      "venue": "Biosensors and Bioelectronics 288, 117741",
+      "arxiv_id": null
     },
     {
       "id": "4_KIgHkAAAAJ:IjCSPb-OGe4C",
       "title": "Deepcircuitx: A comprehensive repository-level dataset for rtl code understanding, generation, and ppa analysis",
       "year": "2025",
-      "citations": 29
+      "citations": 29,
+      "authors": [
+        "Z Li",
+        "C Xu",
+        "Z Shi",
+        "Z Peng",
+        "Y Liu",
+        "Y Zhou",
+        "L Zhou",
+        "C Ma",
+        "J Zhong",
+        "X Wang"
+      ],
+      "venue": "2025 IEEE International Conference on LLM-Aided Design (ICLAD), 204-211",
+      "arxiv_id": null
     },
     {
       "id": "4_KIgHkAAAAJ:u5HHmVD_uO8C",
       "title": "Evaluating text-to-image generative models: An empirical study on human image synthesis",
       "year": "2024",
-      "citations": 24
+      "citations": 24,
+      "authors": [
+        "M Chen",
+        "Y Liu",
+        "J Yi",
+        "C Xu",
+        "Q Lai",
+        "H Wang",
+        "TY Ho",
+        "Q Xu"
+      ],
+      "venue": "arXiv",
+      "arxiv_id": "2403.05125"
     },
     {
       "id": "4_KIgHkAAAAJ:qjMakFHDy7sC",
       "title": "SAM‐dPCR: Accurate and Generalist Nuclei Acid Quantification Leveraging the Zero‐Shot Segment Anything Model",
       "year": "2025",
-      "citations": 16
+      "citations": 16,
+      "authors": [
+        "Y Wei",
+        "S Luo",
+        "C Xu",
+        "Y Fu",
+        "Y Zhang",
+        "F Qu",
+        "G Zhang",
+        "YP Ho",
+        "HP Ho"
+      ],
+      "venue": "Advanced science 12 (7), 2406797",
+      "arxiv_id": null
     },
     {
       "id": "4_KIgHkAAAAJ:Y0pCki6q_DkC",
       "title": "Deeprtl2: A versatile model for rtl-related tasks",
       "year": "2025",
-      "citations": 11
+      "citations": 11,
+      "authors": [
+        "Y Liu",
+        "H Zhang",
+        "Y Zhou",
+        "Z Shi",
+        "C Xu",
+        "Q Xu"
+      ],
+      "venue": "Findings of the Association for Computational Linguistics: ACL 2025, 6485-6500",
+      "arxiv_id": null
     },
     {
       "id": "4_KIgHkAAAAJ:WF5omc3nYNoC",
       "title": "CktEvo: Repository-Level RTL Code Benchmark for Design Evolution",
       "year": "2026",
-      "citations": 3
+      "citations": 4,
+      "authors": [
+        "Z Shi",
+        "J Wang",
+        "T Cheng",
+        "C Xu",
+        "W Qian",
+        "Q Xu"
+      ],
+      "venue": "arXiv",
+      "arxiv_id": "2603.08718"
     },
     {
       "id": "4_KIgHkAAAAJ:zYLM7Y9cAGgC",
       "title": "Speculative Decoding for Verilog: Speed and Quality, All in One",
       "year": "2025",
-      "citations": 3
+      "citations": 3,
+      "authors": [
+        "C Xu",
+        "Y Liu",
+        "Y Zhou",
+        "S Huang",
+        "N Xu",
+        "Q Xu"
+      ],
+      "venue": "2025 62nd ACM/IEEE Design Automation Conference (DAC), 1-7",
+      "arxiv_id": null
     },
     {
       "id": "4_KIgHkAAAAJ:eQOLeE2rZwMC",
       "title": "From Craft to Constitution: A Governance-First Paradigm for Principled Agent Engineering",
       "year": "2025",
-      "citations": 2
+      "citations": 2,
+      "authors": [
+        "Q Xu",
+        "X Wen",
+        "C Xu",
+        "Z Li",
+        "J Zhong"
+      ],
+      "venue": "arXiv",
+      "arxiv_id": "2510.13857"
     }
   ],
   "fetched_via": "scholarly",
-  "updated": "2026-08-16 06:09:57 UTC"
+  "updated": "2026-08-18 18:05:29 UTC"
 }
