@@ -230,7 +230,10 @@ a:hover {
     align-items: center;
     gap: 0.5rem;
     margin-bottom: 0.85rem;
-    font-size: 1.02rem;
+    font-size: 1rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0;
 }
 
 .profile-panel h2 i {
@@ -247,6 +250,10 @@ a:hover {
     display: grid;
     grid-template-columns: 24px minmax(0, 1fr);
     gap: 0.65rem;
+}
+
+.timeline-item--no-logo {
+    grid-template-columns: minmax(0, 1fr);
 }
 
 .timeline-item img {

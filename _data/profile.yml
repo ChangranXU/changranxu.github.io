@@ -51,19 +51,15 @@ education:
   
 experience:
 - name: National Center of Technology Innovation for EDA, Nanjing
-  logo: assets/images/badges/gongsi.png
   position: Algorithm Engineer
   date: 2024.05 - 2025.08
 - name: Flourish Entertainment Agent Company, Hong Kong
-  logo: assets/images/badges/gongsi.png
   position: Web Developer Assistant
   date: 2023.07 - 2023.08
 - name: Legal Expression, Hong Kong
-  logo: assets/images/badges/gongsi.png
   position: Full-Stack Developer (Entrepreneurship)
   date: 2023.05 - 2023.08
 - name: Hongtai Water Resources Information Technology Co, Ltd, Ningbo
-  logo: assets/images/badges/gongsi.png
   position: Front-End Engineer Trainee
   date: 2022.05 - 2022.08
 
@@ -77,11 +73,9 @@ awards:
 
 research:
 - name: Large Circuit Model
-  logo: assets/images/badges/research.png
   position: Research Assistant, supervised by <a href="https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl">Prof. XU Qiang</a>
   date: 2024.05 - 2025.08
 - name: Medical Imaging Analysis
-  logo: assets/images/badges/research.png
   position: Research Intern, supervised by <a href="https://scholar.google.com/citations?user=FJ-huxgAAAAJ&hl">Prof. Alan Yuille</a> and <a href="https://scholar.google.com/citations?user=JVOeczAAAAAJ&hl">Dr. Zhou Zongwei</a>
   date: 2024.06 - 2024.08
 # - name: Application of Computer Vision in Biomedical Engineering
@@ -93,13 +87,14 @@ research:
 #   position: Research Assistant, supervised by <a href="https://scholar.google.com/citations?user=eSiKPqUAAAAJ&hl">Prof. XU Qiang</a>
 #   date: 2023.09 - 2024.05
 - name: SmartNIC Performance Profiling and Prediction
-  logo: assets/images/badges/research.png
   position: Research Assistant, supervised by <a href="https://scholar.google.com/citations?user=BZHzIFIAAAAJ&hl">Prof. XU Hong</a>
   date: 2023.06 - 2023.08
 
-# service:
-# - name: Reviewer of <a href="https://www.embs.org/jbhi/">Journal of Biomedical and Health Informatics (JBHI)</a>
-# - name: Reviewer of <a href="https://2025.ieeeicme.org/">ICME 2025</a>
+service:
+- name: CSCI3170 Introduction to Database Systems
+  term: Spring 2026
+- name: ENGG1110 Problem Solving By Programming
+  term: Fall 2025
 
 # Feel free to replace the footer text if you would like to, but I will greatly appreciate it 
 # if you keep the link to the template so that more people can benefit from it. Thanks!

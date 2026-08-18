@@ -5,8 +5,8 @@
             <h2><i class="fas fa-graduation-cap"></i> Education</h2>
             <div class="timeline-list">
                 {% for item in site.data.profile.education %}
-                <div class="timeline-item">
-                    <img src="{{ item.logo }}" alt="{{ item.name }}">
+                <div class="timeline-item{% unless item.logo %} timeline-item--no-logo{% endunless %}">
+                    {% if item.logo %}<img src="{{ item.logo }}" alt="{{ item.name }}">{% endif %}
                     <div>
                         <p class="timeline-title">{{ item.name }}</p>
                         {% if item.dept %}<p class="small my-0">{{ item.dept }}</p>{% endif %}
@@ -23,11 +23,11 @@
 
         {% if site.data.profile.experience %}
         <div class="profile-panel">
-            <h2><i class="fas fa-briefcase"></i> Experience</h2>
+            <h2>Experience</h2>
             <div class="timeline-list">
                 {% for item in site.data.profile.experience %}
-                <div class="timeline-item">
-                    <img src="{{ item.logo }}" alt="{{ item.name }}">
+                <div class="timeline-item{% unless item.logo %} timeline-item--no-logo{% endunless %}">
+                    {% if item.logo %}<img src="{{ item.logo }}" alt="{{ item.name }}">{% endif %}
                     <div>
                         <p class="timeline-title">{{ item.name }}</p>
                         {% if item.dept %}<p class="small my-0">{{ item.dept }}</p>{% endif %}
@@ -44,11 +44,11 @@
 
         {% if site.data.profile.research %}
         <div class="profile-panel">
-            <h2><i class="fas fa-microscope"></i> Research</h2>
+            <h2>Research</h2>
             <div class="timeline-list">
                 {% for item in site.data.profile.research %}
-                <div class="timeline-item">
-                    <img src="{{ item.logo }}" alt="{{ item.name }}">
+                <div class="timeline-item{% unless item.logo %} timeline-item--no-logo{% endunless %}">
+                    {% if item.logo %}<img src="{{ item.logo }}" alt="{{ item.name }}">{% endif %}
                     <div>
                         <p class="timeline-title">{{ item.name }}</p>
                         {% if item.dept %}<p class="small my-0">{{ item.dept }}</p>{% endif %}
@@ -79,10 +79,12 @@
 
         {% if site.data.profile.service %}
         <div class="profile-panel">
-            <h2><i class="fas fa-hands-helping"></i> Service</h2>
+            <h2>Service</h2>
             <div class="award-list">
                 {% for item in site.data.profile.service %}
-                <div>{{ item.name }}</div>
+                <div class="award-item">
+                    <span>{{ item.name }}{% if item.term %} ({{ item.term }}){% endif %}</span>
+                </div>
                 {% endfor %}
             </div>
         </div>
