@@ -33,6 +33,13 @@ class ProfileParseTests(unittest.TestCase):
         self.assertEqual(
             author["publications"][0]["id"], "4_KIgHkAAAAJ:W7OEmFMy1HYC"
         )
+        self.assertEqual(
+            author["publications"][0]["authors"],
+            ["Yuanyuan Wei", "Changran Xu", "Mingkun Xu"],
+        )
+        self.assertEqual(author["publications"][0]["venue"], "Biosensors and Bioelectronics")
+        self.assertEqual(author["publications"][1]["venue"], "arXiv")
+        self.assertEqual(author["publications"][1]["arxiv_id"], "2502.15832")
 
     def test_captcha_page_is_rejected(self):
         html = '<html><div id="gs_captcha_ccl">not a robot</div></html>'
@@ -59,7 +66,12 @@ class ScholarlyNormalizeTests(unittest.TestCase):
             "publications": [
                 {
                     "author_pub_id": "abc",
-                    "bib": {"title": "Paper", "pub_year": "2025"},
+                    "bib": {
+                        "title": "Paper",
+                        "pub_year": "2025",
+                        "author": "Ada and Changran Xu",
+                        "journal": "ICLR",
+                    },
                     "num_citations": 36,
                 }
             ],
@@ -68,6 +80,8 @@ class ScholarlyNormalizeTests(unittest.TestCase):
         self.assertEqual(author["citedby"], 160)
         self.assertEqual(author["cites_per_year"]["2024"], 7)
         self.assertEqual(author["publications"][0]["citations"], 36)
+        self.assertEqual(author["publications"][0]["authors"], ["Ada", "Changran Xu"])
+        self.assertEqual(author["publications"][0]["venue"], "ICLR")
 
         raw["publications"] = {"abc": raw["publications"][0]}
         author = author_from_scholarly(raw)
@@ -120,7 +134,7 @@ class CurrentSiteDataTests(unittest.TestCase):
             if match:
                 mapped.append((path.name, match.group(1)))
                 self.assertIn(match.group(1), known, msg=path.name)
-        self.assertGreaterEqual(len(mapped), 7)
+        self.assertGreaterEqual(len(mapped), 9)
 
 
 if __name__ == "__main__":

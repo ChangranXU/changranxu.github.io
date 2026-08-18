@@ -22,7 +22,13 @@ from typing import Any
 import requests
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from parse import author_from_scholarly, is_plausible, parse_author_profile
+from parse import (
+    author_from_scholarly,
+    is_plausible,
+    merge_publication_metadata,
+    parse_author_profile,
+)
+from sync_publications import sync_publications
 
 ROOT = Path(__file__).resolve().parent.parent
 RESULTS_DIR = ROOT / "assets" / "results"
@@ -103,7 +109,8 @@ def fetch_author(sid: str) -> dict[str, Any]:
         for fetcher in (fetch_via_scholarly, fetch_via_html):
             try:
                 print(f"[{attempt}/{RETRIES}] trying {fetcher.__name__}", flush=True)
-                return fetcher(sid)
+                author = fetcher(sid)
+                return enrich_publication_metadata(sid, author)
             except Exception as exc:
                 errors.append(f"{fetcher.__name__} attempt {attempt}: {exc}")
                 print(errors[-1], file=sys.stderr, flush=True)
@@ -112,6 +119,22 @@ def fetch_author(sid: str) -> dict[str, Any]:
             print(f"retrying in {wait}s", flush=True)
             time.sleep(wait)
     raise RuntimeError("All Google Scholar fetches failed:\n" + "\n".join(errors))
+
+
+def enrich_publication_metadata(sid: str, author: dict[str, Any]) -> dict[str, Any]:
+    """Fill authors/venue from the profile HTML when scholarly omitted them."""
+    if author.get("fetched_via") == "html":
+        return author
+    try:
+        html_author = fetch_via_html(sid)
+    except Exception as exc:
+        print(f"HTML metadata enrich skipped: {exc}", flush=True)
+        return author
+    author["publications"] = merge_publication_metadata(
+        author.get("publications") or [],
+        html_author.get("publications") or [],
+    )
+    return author
 
 
 def write_outputs(author: dict[str, Any]) -> None:
@@ -179,10 +202,17 @@ def main() -> int:
         return 1
 
     write_outputs(author)
+    summary = sync_publications(ROOT / "_publications", author)
     print(
         f"Wrote citation data: citedby={new_citedby} "
         f"(was {old_citedby}), via {author.get('fetched_via')}, "
         f"{len(author.get('publications') or [])} publications",
+        flush=True,
+    )
+    print(
+        "Synced publication pages: "
+        f"created={summary['created']} updated={summary['updated']} "
+        f"linked={summary['linked']}",
         flush=True,
     )
     return 0

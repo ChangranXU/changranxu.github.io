@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 
 _CITATION_FOR_VIEW_RE = re.compile(r"citation_for_view=([\w:-]+)")
 _INT_RE = re.compile(r"[^\d]")
+_ARXIV_RE = re.compile(r"arxiv(?:\.org/abs/|:?\s*)(\d{4}\.\d{4,5}(?:v\d+)?)", re.I)
 
 
 def parse_int(text: str | None) -> int:
@@ -71,12 +72,28 @@ def author_from_scholarly(author: dict[str, Any]) -> dict[str, Any]:
     publications = []
     for pub in raw_pubs:
         bib = pub.get("bib") or {}
+        venue = (
+            bib.get("venue")
+            or bib.get("journal")
+            or bib.get("conference")
+            or ""
+        )
+        arxiv_id = arxiv_id_from_text(" ".join(
+            str(value)
+            for value in (venue, bib.get("eprint"), pub.get("eprint_url"), pub.get("pub_url"))
+            if value
+        ))
+        if arxiv_id:
+            venue = venue or "arXiv"
         publications.append(
             {
                 "id": pub.get("author_pub_id"),
                 "title": bib.get("title"),
                 "year": str(bib.get("pub_year") or ""),
                 "citations": int(pub.get("num_citations") or 0),
+                "authors": authors_from_bib(bib),
+                "venue": str(venue).strip(),
+                "arxiv_id": arxiv_id,
             }
         )
 
@@ -123,12 +140,19 @@ def _parse_publications(soup: BeautifulSoup) -> list[dict[str, Any]]:
         match = _CITATION_FOR_VIEW_RE.search(href)
         year_el = row.find("span", class_="gsc_a_h") or row.find("td", class_="gsc_a_y")
         cite_el = row.find("a", class_="gsc_a_ac") or row.find("td", class_="gsc_a_c")
+        gray = row.find_all("div", class_="gs_gray")
+        authors_text = gray[0].get_text(" ", strip=True) if gray else ""
+        venue_text = gray[1].get_text(" ", strip=True) if len(gray) > 1 else ""
+        venue, arxiv_id = parse_venue_line(venue_text)
         publications.append(
             {
                 "id": match.group(1) if match else None,
                 "title": title_el.get_text(strip=True),
                 "year": (year_el.get_text(strip=True) if year_el else ""),
                 "citations": parse_int(cite_el.get_text() if cite_el else ""),
+                "authors": split_authors(authors_text),
+                "venue": venue,
+                "arxiv_id": arxiv_id,
             }
         )
     return publications
@@ -149,3 +173,70 @@ def _parse_cites_per_year(soup: BeautifulSoup) -> dict[str, int]:
         label = bar.find("span", class_="gsc_g_al")
         cites[-index_from_right] = parse_int(label.get_text() if label else "")
     return {str(year): count for year, count in zip(years, cites)}
+
+
+def split_authors(text: str | None) -> list[str]:
+    if not text:
+        return []
+    parts = []
+    for chunk in re.split(r",|\band\b", text):
+        name = " ".join(chunk.split()).strip(" .")
+        if not name:
+            continue
+        if name.lower() in {"et al", "et al."}:
+            parts.append("et al.")
+            continue
+        parts.append(name)
+    return parts
+
+
+def authors_from_bib(bib: dict[str, Any]) -> list[str]:
+    raw = bib.get("author") or bib.get("author_list")
+    if isinstance(raw, list):
+        return [str(name).strip() for name in raw if str(name).strip()]
+    if isinstance(raw, str):
+        if " and " in raw:
+            return [name.strip() for name in raw.split(" and ") if name.strip()]
+        return split_authors(raw)
+    return []
+
+
+def arxiv_id_from_text(text: str | None) -> str | None:
+    if not text:
+        return None
+    match = _ARXIV_RE.search(text)
+    return match.group(1) if match else None
+
+
+def parse_venue_line(text: str | None) -> tuple[str, str | None]:
+    """Return (venue, arxiv_id) from the Scholar listing's second gray line."""
+    if not text:
+        return "", None
+    cleaned = re.sub(r",?\s*\d{4}\s*$", "", text).strip(" ,")
+    arxiv_id = arxiv_id_from_text(cleaned)
+    if arxiv_id:
+        return "arXiv", arxiv_id
+    return cleaned, None
+
+
+def normalize_title(title: str | None) -> str:
+    text = re.sub(r"<[^>]+>", " ", title or "")
+    text = text.replace("‐", "-").replace("—", "-").replace("–", "-")
+    text = text.lower()
+    text = re.sub(r"[^a-z0-9]+", " ", text)
+    return " ".join(text.split())
+
+
+def merge_publication_metadata(
+    primary: list[dict[str, Any]], extra: list[dict[str, Any]]
+) -> list[dict[str, Any]]:
+    extras = {pub.get("id"): pub for pub in extra if pub.get("id")}
+    merged = []
+    for pub in primary:
+        other = extras.get(pub.get("id")) or {}
+        item = dict(pub)
+        for key in ("authors", "venue", "arxiv_id"):
+            if not item.get(key) and other.get(key):
+                item[key] = other[key]
+        merged.append(item)
+    return merged
