@@ -77,6 +77,9 @@ def match_local(
             continue
         if meta.get("scholar_pub_id") == pub_id:
             return path, meta, text
+        aliases = meta.get("scholar_pub_ids") or []
+        if isinstance(aliases, list) and pub_id in aliases:
+            return path, meta, text
     target = normalize_title(paper.get("title"))
     if not target:
         return None
@@ -161,7 +164,7 @@ def render_generated_markdown(paper: dict[str, Any]) -> str:
     lines = [
         "---",
         field("title", f"<strong>{escape_html(title)}</strong>"),
-        field("date", f"{year}-01-01 00:00:00 +0800"),
+        field("date", f"{year}-01-15 00:01:00 +0800"),
         field("selected", "false"),
     ]
     if venue:

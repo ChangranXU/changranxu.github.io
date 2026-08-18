@@ -7,6 +7,7 @@ tag:            "s1"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Preprint</span>'
+hidden:         true
 pub_date:       "2024"
 
   

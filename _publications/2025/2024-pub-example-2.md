@@ -6,6 +6,7 @@ pub:            "Computational Optical Imaging and Artificial Intelligence in Bi
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">SPIE</span>'
+hidden:         true
 pub_date:       "2025"
 
   

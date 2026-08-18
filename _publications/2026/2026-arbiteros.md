@@ -7,6 +7,7 @@ pub:            "arXiv"
 # pub_post:       'Under review.'
 pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Preprint</span>'
 pub_date:       "2026"
+scholar_pub_id: "4_KIgHkAAAAJ:eQOLeE2rZwMC"
 
   
 authors:
@@ -24,5 +25,6 @@ authors:
   - Qiang Xu
 links:
   Paper: https://doi.org/10.48550/arXiv.2604.18652
+  Earlier version: https://doi.org/10.48550/arXiv.2510.13857
   Code: https://github.com/cure-lab/ArbiterOS
 ---

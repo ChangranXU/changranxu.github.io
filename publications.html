@@ -10,25 +10,29 @@ body_attr: >-
   Ideas are easy. Execution is everything.
 </blockquote>
 
-{% assign pubs_by_year = site.publications | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
+{% assign visible_pubs = site.publications | where_exp: "item", "item.hidden != true" %}
+{% assign pubs_by_year = visible_pubs | sort: "date" | reverse | group_by_exp: "item", "item.pub_date" %}
 
 <div class="row">
     <div class="col-12 col-lg-10">
         {% for year in pubs_by_year %}
-        {% assign num_papers = year.items | size %}
+        {% unless year.name == blank %}
         <h2 class="year-heading" id="year-{{ year.name }}">{{ year.name }}</h2>
         <section class="site-section my-0">
             {% for item in year.items %}
                 {% include widgets/publication_item.html item=item %}
             {% endfor %}
         </section>
+        {% endunless %}
         {% endfor %}
     </div>
 
     <div class="col-2 d-none d-lg-block">
         <div id="navbar-year" class="nav nav-pills flex-column sticky-top year-nav">
             {% for year in pubs_by_year %}
+            {% unless year.name == blank %}
             <a class="nav-link d-block" href="#year-{{ year.name }}">{{ year.name }}</a>
+            {% endunless %}
             {% endfor %}
         </div>
     </div>

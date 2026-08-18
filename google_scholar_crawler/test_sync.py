@@ -130,7 +130,46 @@ links:
         self.assertIn("NeurIPS", text)
         self.assertIn("- B", text)
 
-    def test_slugify(self):
+    def test_does_not_recreate_when_scholar_id_already_on_another_title(self):
+        combined = self.root / "2026" / "kernel.md"
+        combined.parent.mkdir(parents=True, exist_ok=True)
+        combined.write_text(
+            """---
+title:          "<strong>From Craft to Kernel</strong>"
+date:           2026-04-20 00:01:00 +0800
+selected:       true
+pub:            "arXiv"
+pub_date:       "2026"
+scholar_pub_id: "4_KIgHkAAAAJ:eQOLeE2rZwMC"
+authors:
+  - Xiangyu Wen
+---
+""",
+            encoding="utf-8",
+        )
+        summary = sync_publications(
+            self.root,
+            {
+                "scholar_id": "4_KIgHkAAAAJ",
+                "publications": [
+                    {
+                        "id": "4_KIgHkAAAAJ:eQOLeE2rZwMC",
+                        "title": "From Craft to Constitution: A Governance-First Paradigm for Principled Agent Engineering",
+                        "year": "2025",
+                        "citations": 2,
+                    }
+                ],
+            },
+        )
+        self.assertEqual(summary["created"], [])
+        self.assertFalse(any("constitution" in name for name in summary["created"]))
+
+    def test_generated_date_stays_in_same_year(self):
+        md = render_generated_markdown(
+            {"id": "a:b", "title": "Hello", "year": "2026", "authors": []},
+        )
+        self.assertIn("2026-01-15 00:01:00 +0800", md)
+        self.assertIn('pub_date:       "2026"', md)
         self.assertEqual(slugify("DeepRTL: Bridging Verilog"), "deeprtl-bridging-verilog")
 
     def test_insert_is_noop_when_id_exists(self):
