@@ -248,7 +248,7 @@ a:hover {
 
 .timeline-item {
     display: grid;
-    grid-template-columns: 24px minmax(0, 1fr);
+    grid-template-columns: 18px minmax(0, 1fr);
     gap: 0.65rem;
 }
 
@@ -257,10 +257,10 @@ a:hover {
 }
 
 .timeline-item img {
-    width: 22px;
-    max-height: 22px;
+    width: 16px;
+    max-height: 16px;
     object-fit: contain;
-    margin-top: 0.18rem;
+    margin-top: 0.22rem;
 }
 
 .timeline-title {
@@ -292,6 +292,10 @@ a:hover {
     display: flex;
     justify-content: space-between;
     gap: 1rem;
+}
+
+.award-item > span:first-child {
+    font-weight: 800;
 }
 
 .publication-list {
