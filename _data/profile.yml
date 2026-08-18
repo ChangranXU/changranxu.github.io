@@ -6,7 +6,7 @@ positions:
   - '<span class="no-break"><img src="assets/images/badges/cuhk_logo.png" alt="The Chinese University of Hong Kong" class="inline-badge"/></span> PhD Student, The Chinese University of Hong Kong'
 
 email: "crxu@link.cuhk.edu.hk"
-gscholar: 4_KIgHkAAAAJ
+gscholar: 4_KIgHkAAAAJ  # used by google_scholar_crawler
 # sscholar: 
 github: ChangranXU
 # twitter: 

@@ -4,9 +4,11 @@
         <h2>{% if include.title %}{{ include.title }}{% else %}<i class="fas fa-star"></i> Selected Publications{% endif %}</h2>
         <div class="section-heading__actions">
             <a href="publications">View all <i class="fas fa-angle-right"></i></a>
-            <a href="https://scholar.google.com/citations?user=4_KIgHkAAAAJ" target="_blank" rel="noopener">
-                <img src="https://img.shields.io/endpoint?url=https://changranxu.github.io/assets/results/gs_data_shieldsio.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar citation count">
+            {% if site.data.profile.gscholar %}
+            <a href="https://scholar.google.com/citations?user={{ site.data.profile.gscholar }}&hl=en" target="_blank" rel="noopener">
+                <img src="https://img.shields.io/endpoint?url=https://changranxu.github.io/assets/results/gs_data_shieldsio.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="Google Scholar citations{% if site.data.google_scholar.citedby %}: {{ site.data.google_scholar.citedby }}{% endif %}">
             </a>
+            {% endif %}
         </div>
     </div>
 

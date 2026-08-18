@@ -1,18 +1,9 @@
 {
-  "scholar_id": "4_KIgHkAAAAJ",
-  "name": "Changran Xu",
-  "affiliation": "The Chinese University of Hong Kong",
   "citedby": 160,
-  "citedby5y": 160,
   "hindex": 6,
-  "hindex5y": 6,
   "i10index": 6,
-  "i10index5y": 6,
-  "cites_per_year": {
-    "2024": 7,
-    "2025": 64,
-    "2026": 89
-  },
+  "updated": "2026-08-16 06:09:57 UTC",
+  "scholar_id": "4_KIgHkAAAAJ",
   "publications": [
     {
       "id": "4_KIgHkAAAAJ:W7OEmFMy1HYC",
@@ -68,7 +59,5 @@
       "year": "2025",
       "citations": 2
     }
-  ],
-  "fetched_via": "scholarly",
-  "updated": "2026-08-16 06:09:57 UTC"
+  ]
 }
