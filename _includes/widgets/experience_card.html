@@ -1,102 +1,98 @@
 <section class="site-section">
     <div class="profile-grid">
-        <div class="profile-col">
-            {% if site.data.profile.education %}
-            <div class="profile-panel">
-                <h2><i class="fas fa-graduation-cap"></i> Education</h2>
-                <div class="timeline-list">
-                    {% for item in site.data.profile.education %}
-                    <div class="timeline-item{% unless item.logo %} timeline-item--no-logo{% endunless %}">
-                        {% if item.logo %}<img src="{{ item.logo }}" alt="{{ item.name }}">{% endif %}
-                        <div>
-                            <p class="timeline-title">{{ item.name }}</p>
-                            {% if item.dept %}<p class="small my-0">{{ item.dept }}</p>{% endif %}
-                            <p class="timeline-meta">
-                                <span>{{ item.position }}</span>
-                                <span class="timeline-date">{{ item.date }}</span>
-                            </p>
-                        </div>
-                    </div>
-                    {% endfor %}
-                </div>
-            </div>
-            {% endif %}
-
-            {% if site.data.profile.experience %}
-            <div class="profile-panel">
-                <h2><i class="fas fa-briefcase"></i> Experience</h2>
-                <div class="timeline-list">
-                    {% for item in site.data.profile.experience %}
-                    <div class="timeline-item{% unless item.logo %} timeline-item--no-logo{% endunless %}">
-                        {% if item.logo %}<img src="{{ item.logo }}" alt="{{ item.name }}">{% endif %}
-                        <div>
-                            <p class="timeline-title">{{ item.name }}</p>
-                            {% if item.dept %}<p class="small my-0">{{ item.dept }}</p>{% endif %}
-                            <p class="timeline-meta">
-                                <span>{{ item.position }}</span>
-                                <span class="timeline-date">{{ item.date }}</span>
-                            </p>
-                        </div>
-                    </div>
-                    {% endfor %}
-                </div>
-            </div>
-            {% endif %}
-        </div>
-
-        <div class="profile-col">
-            {% if site.data.profile.research %}
-            <div class="profile-panel">
-                <h2><i class="fas fa-microscope"></i> Research</h2>
-                <div class="timeline-list">
-                    {% for item in site.data.profile.research %}
-                    <div class="timeline-item{% unless item.logo %} timeline-item--no-logo{% endunless %}">
-                        {% if item.logo %}<img src="{{ item.logo }}" alt="{{ item.name }}">{% endif %}
-                        <div>
-                            <p class="timeline-title">{{ item.name }}</p>
-                            {% if item.dept %}<p class="small my-0">{{ item.dept }}</p>{% endif %}
-                            <p class="timeline-meta">
-                                <span>{{ item.position }}</span>
-                                <span class="timeline-date">{{ item.date }}</span>
-                            </p>
-                        </div>
-                    </div>
-                    {% endfor %}
-                </div>
-            </div>
-            {% endif %}
-
-            {% if site.data.profile.awards %}
-            <div class="profile-panel">
-                <h2><i class="fas fa-award"></i> Honors & Awards</h2>
-                <div class="award-list">
-                    {% for item in site.data.profile.awards %}
-                    <div class="award-item">
-                        <span class="timeline-title">{{ item.name }}</span>
-                        <span class="timeline-date">{{ item.date }}</span>
-                    </div>
-                    {% endfor %}
-                </div>
-            </div>
-            {% endif %}
-
-            {% if site.data.profile.service %}
-            <div class="profile-panel">
-                <h2><i class="fas fa-hands-helping"></i> Service</h2>
-                <div class="timeline-list">
-                    {% for item in site.data.profile.service %}
+        {% if site.data.profile.education %}
+        <div class="profile-panel">
+            <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+            <div class="timeline-list">
+                {% for item in site.data.profile.education %}
+                <div class="timeline-item{% unless item.logo %} timeline-item--no-logo{% endunless %}">
+                    {% if item.logo %}<img src="{{ item.logo }}" alt="{{ item.name }}">{% endif %}
                     <div>
-                        <p class="timeline-title">{{ item.role }}</p>
-                        {% for course in item.courses %}
+                        <p class="timeline-title">{{ item.name }}</p>
+                        {% if item.dept %}<p class="small my-0">{{ item.dept }}</p>{% endif %}
                         <p class="timeline-meta">
-                            <span>{{ course.name }}{% if course.term %} ({{ course.term }}){% endif %}</span>
+                            <span>{{ item.position }}</span>
+                            <span class="timeline-date">{{ item.date }}</span>
                         </p>
-                        {% endfor %}
                     </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if site.data.profile.experience %}
+        <div class="profile-panel">
+            <h2><i class="fas fa-briefcase"></i> Experience</h2>
+            <div class="timeline-list">
+                {% for item in site.data.profile.experience %}
+                <div class="timeline-item{% unless item.logo %} timeline-item--no-logo{% endunless %}">
+                    {% if item.logo %}<img src="{{ item.logo }}" alt="{{ item.name }}">{% endif %}
+                    <div>
+                        <p class="timeline-title">{{ item.name }}</p>
+                        {% if item.dept %}<p class="small my-0">{{ item.dept }}</p>{% endif %}
+                        <p class="timeline-meta">
+                            <span>{{ item.position }}</span>
+                            <span class="timeline-date">{{ item.date }}</span>
+                        </p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if site.data.profile.research %}
+        <div class="profile-panel">
+            <h2><i class="fas fa-microscope"></i> Research</h2>
+            <div class="timeline-list">
+                {% for item in site.data.profile.research %}
+                <div class="timeline-item{% unless item.logo %} timeline-item--no-logo{% endunless %}">
+                    {% if item.logo %}<img src="{{ item.logo }}" alt="{{ item.name }}">{% endif %}
+                    <div>
+                        <p class="timeline-title">{{ item.name }}</p>
+                        {% if item.dept %}<p class="small my-0">{{ item.dept }}</p>{% endif %}
+                        <p class="timeline-meta">
+                            <span>{{ item.position }}</span>
+                            <span class="timeline-date">{{ item.date }}</span>
+                        </p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if site.data.profile.awards %}
+        <div class="profile-panel">
+            <h2><i class="fas fa-award"></i> Honors & Awards</h2>
+            <div class="award-list">
+                {% for item in site.data.profile.awards %}
+                <div class="award-item">
+                    <span class="timeline-title">{{ item.name }}</span>
+                    <span class="timeline-date">{{ item.date }}</span>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if site.data.profile.service %}
+        <div class="profile-panel">
+            <h2><i class="fas fa-hands-helping"></i> Service</h2>
+            <div class="timeline-list">
+                {% for item in site.data.profile.service %}
+                <div>
+                    <p class="timeline-title">{{ item.role }}</p>
+                    {% for course in item.courses %}
+                    <p class="timeline-meta">
+                        <span>{{ course.name }}{% if course.term %} ({{ course.term }}){% endif %}</span>
+                    </p>
                     {% endfor %}
                 </div>
+                {% endfor %}
             </div>
-            {% endif %}
         </div>
+        {% endif %}
     </div>
 </section>
