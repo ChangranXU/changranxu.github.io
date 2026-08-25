@@ -2,8 +2,8 @@
   "scholar_id": "4_KIgHkAAAAJ",
   "name": "Changran Xu",
   "affiliation": "The Chinese University of Hong Kong",
-  "citedby": 162,
-  "citedby5y": 162,
+  "citedby": 165,
+  "citedby5y": 165,
   "hindex": 6,
   "hindex5y": 6,
   "i10index": 6,
@@ -11,7 +11,7 @@
   "cites_per_year": {
     "2024": 7,
     "2025": 65,
-    "2026": 90
+    "2026": 93
   },
   "publications": [
     {
@@ -73,7 +73,7 @@
       "id": "4_KIgHkAAAAJ:u5HHmVD_uO8C",
       "title": "Evaluating text-to-image generative models: An empirical study on human image synthesis",
       "year": "2024",
-      "citations": 24,
+      "citations": 25,
       "authors": [
         "M Chen",
         "Y Liu",
@@ -110,7 +110,7 @@
       "id": "4_KIgHkAAAAJ:Y0pCki6q_DkC",
       "title": "Deeprtl2: A versatile model for rtl-related tasks",
       "year": "2025",
-      "citations": 11,
+      "citations": 12,
       "authors": [
         "Y Liu",
         "H Zhang",
@@ -126,7 +126,7 @@
       "id": "4_KIgHkAAAAJ:WF5omc3nYNoC",
       "title": "CktEvo: Repository-Level RTL Code Benchmark for Design Evolution",
       "year": "2026",
-      "citations": 4,
+      "citations": 5,
       "authors": [
         "Z Shi",
         "J Wang",
@@ -171,5 +171,5 @@
     }
   ],
   "fetched_via": "scholarly",
-  "updated": "2026-08-22 18:03:02 UTC"
+  "updated": "2026-08-25 18:06:35 UTC"
 }
