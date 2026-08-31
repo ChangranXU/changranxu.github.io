@@ -2,8 +2,8 @@
   "scholar_id": "4_KIgHkAAAAJ",
   "name": "Changran Xu",
   "affiliation": "The Chinese University of Hong Kong",
-  "citedby": 166,
-  "citedby5y": 166,
+  "citedby": 169,
+  "citedby5y": 169,
   "hindex": 6,
   "hindex5y": 6,
   "i10index": 6,
@@ -11,14 +11,14 @@
   "cites_per_year": {
     "2024": 7,
     "2025": 65,
-    "2026": 94
+    "2026": 97
   },
   "publications": [
     {
       "id": "4_KIgHkAAAAJ:UeHWp8X0CEIC",
       "title": "DeepRTL: Bridging Verilog Understanding and Generation with a Unified Representation Model",
       "year": "2025",
-      "citations": 38,
+      "citations": 40,
       "authors": [
         "Y Liu",
         "XU Changran",
@@ -110,7 +110,7 @@
       "id": "4_KIgHkAAAAJ:Y0pCki6q_DkC",
       "title": "Deeprtl2: A versatile model for rtl-related tasks",
       "year": "2025",
-      "citations": 12,
+      "citations": 13,
       "authors": [
         "Y Liu",
         "H Zhang",
@@ -171,5 +171,5 @@
     }
   ],
   "fetched_via": "scholarly",
-  "updated": "2026-08-30 06:21:04 UTC"
+  "updated": "2026-08-31 18:03:22 UTC"
 }

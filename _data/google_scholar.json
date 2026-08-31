@@ -1,15 +1,15 @@
 {
-  "citedby": 166,
+  "citedby": 169,
   "hindex": 6,
   "i10index": 6,
-  "updated": "2026-08-30 06:21:04 UTC",
+  "updated": "2026-08-31 18:03:22 UTC",
   "scholar_id": "4_KIgHkAAAAJ",
   "publications": [
     {
       "id": "4_KIgHkAAAAJ:UeHWp8X0CEIC",
       "title": "DeepRTL: Bridging Verilog Understanding and Generation with a Unified Representation Model",
       "year": "2025",
-      "citations": 38,
+      "citations": 40,
       "authors": [
         "Y Liu",
         "XU Changran",
@@ -101,7 +101,7 @@
       "id": "4_KIgHkAAAAJ:Y0pCki6q_DkC",
       "title": "Deeprtl2: A versatile model for rtl-related tasks",
       "year": "2025",
-      "citations": 12,
+      "citations": 13,
       "authors": [
         "Y Liu",
         "H Zhang",
@@ -166,7 +166,7 @@
       "id": "4_KIgHkAAAAJ:UeHWp8X0CEIC",
       "title": "DeepRTL: Bridging Verilog Understanding and Generation with a Unified Representation Model",
       "year": "2025",
-      "citations": 38,
+      "citations": 40,
       "authors": [
         "Y Liu",
         "XU Changran",
@@ -258,7 +258,7 @@
       "id": "4_KIgHkAAAAJ:Y0pCki6q_DkC",
       "title": "Deeprtl2: A versatile model for rtl-related tasks",
       "year": "2025",
-      "citations": 12,
+      "citations": 13,
       "authors": [
         "Y Liu",
         "H Zhang",
