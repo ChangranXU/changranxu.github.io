@@ -2,8 +2,8 @@
   "scholar_id": "4_KIgHkAAAAJ",
   "name": "Changran Xu",
   "affiliation": "TheChinese University of Hong Kong",
-  "citedby": 170,
-  "citedby5y": 170,
+  "citedby": 172,
+  "citedby5y": 172,
   "hindex": 6,
   "hindex5y": 6,
   "i10index": 6,
@@ -11,7 +11,7 @@
   "cites_per_year": {
     "2024": 7,
     "2025": 65,
-    "2026": 97
+    "2026": 99
   },
   "publications": [
     {
@@ -33,7 +33,7 @@
       "id": "4_KIgHkAAAAJ:W7OEmFMy1HYC",
       "title": "From droplets to diagnosis: AI-driven imaging and system integration in digital nucleic acid amplification testing",
       "year": "2025",
-      "citations": 37,
+      "citations": 39,
       "authors": [
         "Y Wei",
         "X Liu",
@@ -171,5 +171,5 @@
     }
   ],
   "fetched_via": "html",
-  "updated": "2026-09-11 18:03:12 UTC"
+  "updated": "2026-09-13 06:25:10 UTC"
 }
