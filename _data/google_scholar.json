@@ -1,8 +1,8 @@
 {
-  "citedby": 172,
+  "citedby": 174,
   "hindex": 6,
   "i10index": 6,
-  "updated": "2026-09-17 18:03:42 UTC",
+  "updated": "2026-09-20 18:03:15 UTC",
   "scholar_id": "4_KIgHkAAAAJ",
   "publications": [
     {
@@ -101,7 +101,7 @@
       "id": "4_KIgHkAAAAJ:Y0pCki6q_DkC",
       "title": "Deeprtl2: A versatile model for rtl-related tasks",
       "year": "2025",
-      "citations": 13,
+      "citations": 15,
       "authors": [
         "Y Liu",
         "H Zhang",
@@ -258,7 +258,7 @@
       "id": "4_KIgHkAAAAJ:Y0pCki6q_DkC",
       "title": "Deeprtl2: A versatile model for rtl-related tasks",
       "year": "2025",
-      "citations": 13,
+      "citations": 15,
       "authors": [
         "Y Liu",
         "H Zhang",

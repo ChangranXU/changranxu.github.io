@@ -2,16 +2,16 @@
   "scholar_id": "4_KIgHkAAAAJ",
   "name": "Changran Xu",
   "affiliation": "TheChinese University of Hong Kong",
-  "citedby": 172,
-  "citedby5y": 172,
+  "citedby": 174,
+  "citedby5y": 174,
   "hindex": 6,
   "hindex5y": 6,
   "i10index": 6,
   "i10index5y": 6,
   "cites_per_year": {
     "2024": 7,
-    "2025": 65,
-    "2026": 99
+    "2025": 64,
+    "2026": 102
   },
   "publications": [
     {
@@ -110,7 +110,7 @@
       "id": "4_KIgHkAAAAJ:Y0pCki6q_DkC",
       "title": "Deeprtl2: A versatile model for rtl-related tasks",
       "year": "2025",
-      "citations": 13,
+      "citations": 15,
       "authors": [
         "Y Liu",
         "H Zhang",
@@ -171,5 +171,5 @@
     }
   ],
   "fetched_via": "html",
-  "updated": "2026-09-17 18:03:42 UTC"
+  "updated": "2026-09-20 18:03:15 UTC"
 }
