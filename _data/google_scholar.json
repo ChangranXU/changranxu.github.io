@@ -1,30 +1,15 @@
 {
-  "citedby": 174,
+  "citedby": 175,
   "hindex": 6,
   "i10index": 6,
-  "updated": "2026-09-26 18:02:44 UTC",
+  "updated": "2026-09-29 18:03:27 UTC",
   "scholar_id": "4_KIgHkAAAAJ",
   "publications": [
-    {
-      "id": "4_KIgHkAAAAJ:UeHWp8X0CEIC",
-      "title": "DeepRTL: Bridging Verilog Understanding and Generation with a Unified Representation Model",
-      "year": "2025",
-      "citations": 40,
-      "authors": [
-        "Y Liu",
-        "XU Changran",
-        "Y Zhou",
-        "Z Li",
-        "Q Xu"
-      ],
-      "venue": "The Thirteenth International Conference on Learning Representations",
-      "arxiv_id": null
-    },
     {
       "id": "4_KIgHkAAAAJ:W7OEmFMy1HYC",
       "title": "From droplets to diagnosis: AI-driven imaging and system integration in digital nucleic acid amplification testing",
       "year": "2025",
-      "citations": 39,
+      "citations": 40,
       "authors": [
         "Y Wei",
         "X Liu",
@@ -38,6 +23,21 @@
         "M Xu"
       ],
       "venue": "Biosensors and Bioelectronics 288, 117741",
+      "arxiv_id": null
+    },
+    {
+      "id": "4_KIgHkAAAAJ:UeHWp8X0CEIC",
+      "title": "DeepRTL: Bridging Verilog Understanding and Generation with a Unified Representation Model",
+      "year": "2025",
+      "citations": 40,
+      "authors": [
+        "Y Liu",
+        "XU Changran",
+        "Y Zhou",
+        "Z Li",
+        "Q Xu"
+      ],
+      "venue": "The Thirteenth International Conference on Learning Representations",
       "arxiv_id": null
     },
     {
@@ -162,26 +162,11 @@
     }
   ],
   "by_id": {
-    "4_KIgHkAAAAJ:UeHWp8X0CEIC": {
-      "id": "4_KIgHkAAAAJ:UeHWp8X0CEIC",
-      "title": "DeepRTL: Bridging Verilog Understanding and Generation with a Unified Representation Model",
-      "year": "2025",
-      "citations": 40,
-      "authors": [
-        "Y Liu",
-        "XU Changran",
-        "Y Zhou",
-        "Z Li",
-        "Q Xu"
-      ],
-      "venue": "The Thirteenth International Conference on Learning Representations",
-      "arxiv_id": null
-    },
     "4_KIgHkAAAAJ:W7OEmFMy1HYC": {
       "id": "4_KIgHkAAAAJ:W7OEmFMy1HYC",
       "title": "From droplets to diagnosis: AI-driven imaging and system integration in digital nucleic acid amplification testing",
       "year": "2025",
-      "citations": 39,
+      "citations": 40,
       "authors": [
         "Y Wei",
         "X Liu",
@@ -195,6 +180,21 @@
         "M Xu"
       ],
       "venue": "Biosensors and Bioelectronics 288, 117741",
+      "arxiv_id": null
+    },
+    "4_KIgHkAAAAJ:UeHWp8X0CEIC": {
+      "id": "4_KIgHkAAAAJ:UeHWp8X0CEIC",
+      "title": "DeepRTL: Bridging Verilog Understanding and Generation with a Unified Representation Model",
+      "year": "2025",
+      "citations": 40,
+      "authors": [
+        "Y Liu",
+        "XU Changran",
+        "Y Zhou",
+        "Z Li",
+        "Q Xu"
+      ],
+      "venue": "The Thirteenth International Conference on Learning Representations",
       "arxiv_id": null
     },
     "4_KIgHkAAAAJ:IjCSPb-OGe4C": {
