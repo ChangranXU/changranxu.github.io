@@ -2,16 +2,16 @@
   "scholar_id": "4_KIgHkAAAAJ",
   "name": "Changran Xu",
   "affiliation": "TheChinese University of Hong Kong",
-  "citedby": 175,
-  "citedby5y": 175,
+  "citedby": 176,
+  "citedby5y": 176,
   "hindex": 6,
   "hindex5y": 6,
   "i10index": 6,
   "i10index5y": 6,
   "cites_per_year": {
     "2024": 7,
-    "2025": 64,
-    "2026": 103
+    "2025": 60,
+    "2026": 108
   },
   "publications": [
     {
@@ -126,7 +126,7 @@
       "id": "4_KIgHkAAAAJ:WF5omc3nYNoC",
       "title": "CktEvo: Repository-Level RTL Code Benchmark for Design Evolution",
       "year": "2026",
-      "citations": 5,
+      "citations": 6,
       "authors": [
         "Z Shi",
         "J Wang",
@@ -171,5 +171,5 @@
     }
   ],
   "fetched_via": "html",
-  "updated": "2026-10-02 06:24:24 UTC"
+  "updated": "2026-10-04 08:06:15 UTC"
 }

@@ -1,8 +1,8 @@
 {
-  "citedby": 175,
+  "citedby": 176,
   "hindex": 6,
   "i10index": 6,
-  "updated": "2026-10-02 06:24:24 UTC",
+  "updated": "2026-10-04 08:06:15 UTC",
   "scholar_id": "4_KIgHkAAAAJ",
   "publications": [
     {
@@ -117,7 +117,7 @@
       "id": "4_KIgHkAAAAJ:WF5omc3nYNoC",
       "title": "CktEvo: Repository-Level RTL Code Benchmark for Design Evolution",
       "year": "2026",
-      "citations": 5,
+      "citations": 6,
       "authors": [
         "Z Shi",
         "J Wang",
@@ -274,7 +274,7 @@
       "id": "4_KIgHkAAAAJ:WF5omc3nYNoC",
       "title": "CktEvo: Repository-Level RTL Code Benchmark for Design Evolution",
       "year": "2026",
-      "citations": 5,
+      "citations": 6,
       "authors": [
         "Z Shi",
         "J Wang",
