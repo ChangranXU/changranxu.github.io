@@ -2,8 +2,8 @@
   "scholar_id": "4_KIgHkAAAAJ",
   "name": "Changran Xu",
   "affiliation": "TheChinese University of Hong Kong",
-  "citedby": 176,
-  "citedby5y": 176,
+  "citedby": 177,
+  "citedby5y": 177,
   "hindex": 6,
   "hindex5y": 6,
   "i10index": 6,
@@ -11,7 +11,7 @@
   "cites_per_year": {
     "2024": 7,
     "2025": 60,
-    "2026": 108
+    "2026": 109
   },
   "publications": [
     {
@@ -53,7 +53,7 @@
       "id": "4_KIgHkAAAAJ:IjCSPb-OGe4C",
       "title": "Deepcircuitx: A comprehensive repository-level dataset for rtl code understanding, generation, and ppa analysis",
       "year": "2025",
-      "citations": 29,
+      "citations": 30,
       "authors": [
         "Z Li",
         "C Xu",
@@ -171,5 +171,5 @@
     }
   ],
   "fetched_via": "html",
-  "updated": "2026-10-04 08:06:15 UTC"
+  "updated": "2026-10-07 06:24:20 UTC"
 }
