@@ -2,8 +2,8 @@
   "scholar_id": "4_KIgHkAAAAJ",
   "name": "Changran Xu",
   "affiliation": "TheChinese University of Hong Kong",
-  "citedby": 177,
-  "citedby5y": 177,
+  "citedby": 182,
+  "citedby5y": 182,
   "hindex": 6,
   "hindex5y": 6,
   "i10index": 6,
@@ -11,14 +11,14 @@
   "cites_per_year": {
     "2024": 7,
     "2025": 60,
-    "2026": 109
+    "2026": 114
   },
   "publications": [
     {
       "id": "4_KIgHkAAAAJ:W7OEmFMy1HYC",
       "title": "From droplets to diagnosis: AI-driven imaging and system integration in digital nucleic acid amplification testing",
       "year": "2025",
-      "citations": 40,
+      "citations": 43,
       "authors": [
         "Y Wei",
         "X Liu",
@@ -38,7 +38,7 @@
       "id": "4_KIgHkAAAAJ:UeHWp8X0CEIC",
       "title": "DeepRTL: Bridging Verilog Understanding and Generation with a Unified Representation Model",
       "year": "2025",
-      "citations": 40,
+      "citations": 41,
       "authors": [
         "Y Liu",
         "XU Changran",
@@ -88,6 +88,22 @@
       "arxiv_id": "2403.05125"
     },
     {
+      "id": "4_KIgHkAAAAJ:Y0pCki6q_DkC",
+      "title": "Deeprtl2: A versatile model for rtl-related tasks",
+      "year": "2025",
+      "citations": 16,
+      "authors": [
+        "Y Liu",
+        "H Zhang",
+        "Y Zhou",
+        "Z Shi",
+        "C Xu",
+        "Q Xu"
+      ],
+      "venue": "Findings of the Association for Computational Linguistics: ACL 2025, 6485-6500",
+      "arxiv_id": null
+    },
+    {
       "id": "4_KIgHkAAAAJ:qjMakFHDy7sC",
       "title": "SAM‐dPCR: Accurate and Generalist Nuclei Acid Quantification Leveraging the Zero‐Shot Segment Anything Model",
       "year": "2025",
@@ -104,22 +120,6 @@
         "HP Ho"
       ],
       "venue": "Advanced science 12 (7), 2406797",
-      "arxiv_id": null
-    },
-    {
-      "id": "4_KIgHkAAAAJ:Y0pCki6q_DkC",
-      "title": "Deeprtl2: A versatile model for rtl-related tasks",
-      "year": "2025",
-      "citations": 15,
-      "authors": [
-        "Y Liu",
-        "H Zhang",
-        "Y Zhou",
-        "Z Shi",
-        "C Xu",
-        "Q Xu"
-      ],
-      "venue": "Findings of the Association for Computational Linguistics: ACL 2025, 6485-6500",
       "arxiv_id": null
     },
     {
@@ -171,5 +171,5 @@
     }
   ],
   "fetched_via": "html",
-  "updated": "2026-10-07 06:24:20 UTC"
+  "updated": "2026-10-23 06:23:00 UTC"
 }
