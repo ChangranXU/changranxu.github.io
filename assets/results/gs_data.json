@@ -2,16 +2,16 @@
   "scholar_id": "4_KIgHkAAAAJ",
   "name": "Changran Xu",
   "affiliation": "TheChinese University of Hong Kong",
-  "citedby": 184,
-  "citedby5y": 184,
+  "citedby": 186,
+  "citedby5y": 186,
   "hindex": 6,
   "hindex5y": 6,
   "i10index": 6,
   "i10index5y": 6,
   "cites_per_year": {
     "2024": 7,
-    "2025": 58,
-    "2026": 118
+    "2025": 56,
+    "2026": 122
   },
   "publications": [
     {
@@ -53,7 +53,7 @@
       "id": "4_KIgHkAAAAJ:IjCSPb-OGe4C",
       "title": "Deepcircuitx: A comprehensive repository-level dataset for rtl code understanding, generation, and ppa analysis",
       "year": "2025",
-      "citations": 31,
+      "citations": 32,
       "authors": [
         "Z Li",
         "C Xu",
@@ -139,6 +139,21 @@
       "arxiv_id": "2603.08718"
     },
     {
+      "id": "4_KIgHkAAAAJ:eQOLeE2rZwMC",
+      "title": "From Craft to Constitution: A Governance-First Paradigm for Principled Agent Engineering",
+      "year": "2025",
+      "citations": 3,
+      "authors": [
+        "Q Xu",
+        "X Wen",
+        "C Xu",
+        "Z Li",
+        "J Zhong"
+      ],
+      "venue": "arXiv",
+      "arxiv_id": "2510.13857"
+    },
+    {
       "id": "4_KIgHkAAAAJ:zYLM7Y9cAGgC",
       "title": "Speculative Decoding for Verilog: Speed and Quality, All in One",
       "year": "2025",
@@ -153,23 +168,8 @@
       ],
       "venue": "2025 62nd ACM/IEEE Design Automation Conference (DAC), 1-7",
       "arxiv_id": null
-    },
-    {
-      "id": "4_KIgHkAAAAJ:eQOLeE2rZwMC",
-      "title": "From Craft to Constitution: A Governance-First Paradigm for Principled Agent Engineering",
-      "year": "2025",
-      "citations": 2,
-      "authors": [
-        "Q Xu",
-        "X Wen",
-        "C Xu",
-        "Z Li",
-        "J Zhong"
-      ],
-      "venue": "arXiv",
-      "arxiv_id": "2510.13857"
     }
   ],
   "fetched_via": "html",
-  "updated": "2026-11-01 06:13:56 UTC"
+  "updated": "2026-11-04 18:02:02 UTC"
 }
