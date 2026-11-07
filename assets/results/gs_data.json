@@ -9,9 +9,9 @@
   "i10index": 6,
   "i10index5y": 6,
   "cites_per_year": {
-    "2024": 7,
+    "2024": 6,
     "2025": 56,
-    "2026": 122
+    "2026": 123
   },
   "publications": [
     {
@@ -168,8 +168,21 @@
       ],
       "venue": "2025 62nd ACM/IEEE Design Automation Conference (DAC), 1-7",
       "arxiv_id": null
+    },
+    {
+      "id": "4_KIgHkAAAAJ:_FxGoFyzp5QC",
+      "title": "Delivered, Not Used: Evaluating Agent Memory at Its Point of Use",
+      "year": "2026",
+      "citations": 0,
+      "authors": [
+        "C Xu",
+        "Z Li",
+        "Q Xu"
+      ],
+      "venue": "arXiv",
+      "arxiv_id": "2611.01718"
     }
   ],
   "fetched_via": "html",
-  "updated": "2026-11-04 18:02:02 UTC"
+  "updated": "2026-11-07 18:01:42 UTC"
 }
